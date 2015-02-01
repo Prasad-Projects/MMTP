@@ -1,1 +1,31 @@
-Work Schedule
+Plan of Work
+
+Duration for the project: January 15 - May 10
+
+Week 1-3(Jan 15 - Feb 6): Study and select a realizable software architectural pattern to implement the multimodal trip planner 
+and create necessary technical documents to aid implementation.
+
+Week 4-7(Feb 7 - Mar 7): Model driven developement of the applcation.
+
+Week 8-13(Mar 8 - Apr 25): Study and incorporate multicriterion optimization algorithms in the trip planner.
+
+Week 14-15(Apr 26 - Mar 3): Prepare and submit a report on the implementation and deployment of the trip planner along with the 
+optimization algorithms analyzed and used in the application.
+
+
+
+Week Schedule
+
+Dedicate 6 hours to this work on daily basis 
+
+Meeting with Supervisor every Tuesday (2pm to 3pm) 
+
+Group meeting every Thursday (5pm to 6pm)
+
+Post progress status on the git hub repository every Saturday 
+
+
+
+
+
+
