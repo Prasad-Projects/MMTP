@@ -1,10 +1,10 @@
-DROP TABLE mytable;
+
 CREATE TABLE mytable(
-  src_id INTEGER(5) NOT NULL PRIMARY KEY 
+  src_id INTEGER(5) 
 , src_name VARCHAR(25)
 , dest_id INTEGER(5)
 , dest_name VARCHAR(25)
-, bus_routeid INTEGER(7)
+, bus_routeid INTEGER(7) PRIMARY KEY
 , bus_starttime INTEGER(4)
 , bus_endtime INTEGER(4)
 , bus_duration INTEGER(4)
