@@ -45,8 +45,7 @@
 		
 		$maxRating = max($maxRating,$row['bus_rating']);
 	} 
-	$arr=array();
-
+	
 	//Computing U
 	$sql = 'SELECT * from mytable where src_name=$Source AND dest_name=$Destination AND isAC=$isAC '.
 		'AND isSlpr=$isSleeper;';
@@ -59,21 +58,7 @@
 		$normRating = $row['bus_rating']/$maxRating;
 		$U = (11 - $row['bus_duration'])*1000*$normTime + $row['bus_fare']*$normFare + (1/$row['bus_rating']*$normRating);
 		$U += $row['available_seat']*$normSeat;
-		$arr[$row['bus_routeid']]=$U;
 	}
 	mysql_close($conn); 
-
-	krsort($arr);
-    	$key = $value = NULL;
-    	$i=0;
-
-    	foreach ($arr as $key => $value) {
-        echo "$key = $value\n";
-        $i=$i+1;
-
-        if($i >= 3)
-            break;
-	}
-
 ?>
 </html>
