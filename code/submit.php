@@ -15,14 +15,16 @@
 	$dbuser = 'root';
 	$dbpass = 'password';
 	$dbname = 'MMTP';
+
 	$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 	if(mysqli_connect_errno())
 	{	
 		die('Could not connect: ' . mysqli_connect_error());
 	}
+
 	$sql = 'SELECT * from mytable where src_name=$Source AND dest_name=$Destination AND isAC=$isAC AND isSlpr=$isSleeper;';
 	$retval = mysqli_query($conn, $sql);
-	
+
 	//Computing upper and lower bounds for fare,travel time and available seats	
 	$maxtime = 0;
 	$mintime = 500000;
@@ -44,6 +46,7 @@
 		$maxRating = max($maxRating,$row['bus_rating']);
 	} 
 	$arr=array();
+
 	//Computing U and adding it to the array, $arr
 	$sql = 'SELECT * from mytable where src_name=$Source AND dest_name=$Destination AND isAC=$isAC AND isSlpr=$isSleeper;';
 	$retval = mysqli_query($conn, $sql);
@@ -56,6 +59,7 @@
 		$U = (11 - $row['bus_duration'])*1000*$normTime + $row['bus_fare']*$normFare + (1/$row['bus_rating']*$normRating);
 		$U += $row['available_seat']*$normSeat;
 		$arr[$row['bus_routeid']]=$U;
+
 	}
 
 
@@ -76,9 +80,10 @@
         $i=$i+1;
         if($i >= 3)
             break;
-	}
+		}
 	//Freeing result and closing the connection
 	mysqli_free_result($result);
 	mysqli_close($conn);
+
 ?>
 </html>
