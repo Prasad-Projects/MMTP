@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+      font-family: "segoeL";
+       src: url(http://www.tutsgeek.com/download/Pricing-table-tutreflex.com/fonts/SegoeL.ttf) format("truetype");
+}
+@font-face {
+      font-family: "segoeLI";
+       src: url(http://www.tutsgeek.com/download/Pricing-table-tutreflex.com/fonts/SegoeLI.ttf) format("truetype");
+}
+
+/*========================GET TO KNOW US=========================*/
+
+#content{
+	margin:0px auto;
+	min-width:955px;
+	width:955px;
+	height:auto;
+}
+
+.wat-bg{
+	float:left;
+	margin:10px 0px 0px 1px;
+	padding-bottom:25px;
+	width:230px;
+	height:20px;
+	background-color:#4a4343;
+}
+.wat-head{
+	float:left;
+	padding:5px;
+	margin:0px 0px 5px 4px;
+	height:20px;
+	width:230px;
+	font-family:segoeL, Helvetica, sans-serif;
+	font-size:24px;
+	color:#89dfff;
+}
+.wat-order{
+	float:left;
+	margin:2px 0px 10px 10px;
+	height:50px;
+	width:210px;
+	background:#FFF;
+}
+.wat-name{
+	float:left;
+	margin:10px 0px 0px 0px;
+	height:35px;
+	width:140px;	
+}
+.wat-link1{
+	float:left;
+	margin:0px 0px 0px 10px;
+	height:12px;
+	width:130px;
+	font-family:arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#938b8b;
+	font-weight:bold;
+}
+.wat-link:hover{
+	color:#89dfff;
+
+}
+.wat-link {
+	float:left;
+	margin:0px 0px 0px 10px;
+	height:27px;
+	width:130px;
+	font-family:arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#949090;	
+}
+.wat-line{
+	float:left;
+	margin:15px 0px 0px 5px;
+	height:20px;
+	width:1px;
+	background:#928a8a;
+}
+.money{
+	float:left;
+	margin:17px 0px 0px 10px;
+	font-family:arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:30px;
+	width:50px;
+	color:#716b6b;
+}
+
+
+/*=====================two=======================*/
+
+
+.wat-bg2{
+	float:left;
+	margin:10px 0px 0px 11px;
+	padding-bottom:25px;
+	width:230px;
+	height:40px;
+	background-color:#4a4343;
+}
+.wat-head2{
+	float:left;
+	padding:5px;
+	margin:0px 0px 5px 4px;
+	height:20px;
+	width:230px;
+	font-family:segoeL, Helvetica, sans-serif;
+	font-size:24px;
+	color:#89dfff;
+}
+.wat-order2{
+	float:left;
+	margin:2px 0px 10px 10px;
+	height:50px;
+	width:210px;
+	background:#FFF;
+}
+.wat-name2{
+	float:left;
+	margin:10px 0px 0px 0px;
+	height:35px;
+	width:140px;	
+}
+.wat-link12{
+	float:left;
+	margin:0px 0px 0px 10px;
+	height:12px;
+	width:130px;
+	font-family:arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#938b8b;
+	font-weight:bold;
+}
+.wat-link2:hover{
+	color:#89dfff;
+
+}
+.wat-link2 {
+	float:left;
+	margin:0px 0px 0px 10px;
+	height:27px;
+	width:130px;
+	font-family:arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#949090;	
+}
+.wat-line2{
+	float:left;
+	margin:15px 0px 0px 5px;
+	height:20px;
+	width:1px;
+	background:#928a8a;
+}
+.money2{
+	float:left;
+	margin:17px 0px 0px 10px;
+	font-family:arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:30px;
+	width:50px;
+	color:#716b6b;
+}
+
+.logo-hold{
+	
+	width:800px;
+	float:left;
+	height:150px;
+}
+
+.logoz{
+	margin-top:20px;
+	margin-left:300px;
+	width:300px;
+	float:left;
+	height:150px;
+
+}
