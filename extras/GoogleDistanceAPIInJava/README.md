@@ -8,3 +8,5 @@ and other details providede by Indian Avation
 4) Import the org.json jar package attached in zip form in the repository 
 
 
+Resources:
+http://tech-debut.blogspot.in/2011/11/distance-calculator-using-google-api.html
