@@ -10,9 +10,9 @@ The table has more than 10000 entries, hence to avoid PHP timeout and breaking o
 To import 
 1) Create a database 
 2) Start by importing buses1.sql, buses2.sql till buses5.sql in order
-3) For the mmtp.zip, extract it and type the following in the terminal:
-   -> Create a database named mmtp1 in mysql
-   -> Then type: mysql -u root -p mmtp1 < mmtp.sql
+3) Type the following in the terminal:
+   -> Create a database named mmtp in mysql
+   -> Then type: mysql -u root -p mmtp < airline.sql
 
 
 
