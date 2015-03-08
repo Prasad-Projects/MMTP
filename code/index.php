@@ -297,18 +297,45 @@ $("#exec1").show("slow");
 					</section>
 					
 				</fieldset>
-				
 				<fieldset style="background: rgba(225,235,255,.9);">
 					<div class="row">
 					
 						
 						<section class="col col-5">				
-							<label class="label">Type-Preference</label>
+							<label class="label">Preferred Mode of Travel</label>
+							<br/>
+							<label>Air</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isAir" id="Air"/>
+							<br/>
+							<br/>
+							<label>Bus</label>&nbsp; &nbsp; &nbsp; <input type="checkbox" name="isBus" id="Bus"/>
+						</section>
+					</div>
+				</fieldset>
+				<fieldset style="background: rgba(225,235,255,.9);">
+					<div class="row">
+					
+						
+						<section class="col col-5">				
+							<label class="label">Type-Preference (only for BUS)</label>
 							<br/>
 							<label>Air Conditioned</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isAC" checked="checked" id="AC"/>
 							<br/>
 							<br/>
 							<label>Sleeper</label>&nbsp; &nbsp; &nbsp; <input type="checkbox" name="isSleeper" id="SLPR"/>
+						</section>
+					</div>
+				</fieldset>
+
+				<fieldset style="background: rgba(225,235,255,.9);">
+					<div class="row">
+					
+						
+						<section class="col col-5">				
+							<label class="label">Type-Preference (only for AIR)</label>
+							<br/>
+							<label>Food Service</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isFood" checked="checked" id="Food"/>
+							<br/>
+							
 						</section>
 					</div>
 				</fieldset>
