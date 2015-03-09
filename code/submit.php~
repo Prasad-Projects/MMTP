@@ -142,8 +142,8 @@ $minSeat = 500000;
 $maxRating = 1.0;
 while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
 {
-$maxTime = max($maxTime,$row['durationint']);
-$minTime = min($minTime,$row['durationint']);
+$maxTime = max($maxTime,$row['duration']);
+$minTime = min($minTime,$row['duration']);
 $maxFare = max($maxFare,$row['distance']);
 $minFare = min($minFare,$row['distance']);
 //fare directly proportional to distancee
@@ -158,10 +158,10 @@ if($row_cnt==0)
 
 while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
 {
-$normTime = ($row['durationint'] - $maxTime)/($maxTime - $minTime);
+$normTime = ($row['duration'] - $maxTime)/($maxTime - $minTime);
 $normFare = ($row['distance'] - $maxFare)/($maxFare - $minFare);
 
-$U = (11 - $row['durationint'])*1000*$normTime + $row['distance']*$normFare;
+$U = (11 - $row['duration'])*1000*$normTime + $row['distance']*$normFare;
 $arr[$row['sys_id']]=$U;
 }
 krsort($arr);
