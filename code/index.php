@@ -318,7 +318,7 @@ $("#exec1").show("slow");
 						<section class="col col-5">				
 							<label class="label">Type-Preference (only for BUS)</label>
 							<br/>
-							<label>Air Conditioned</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isAC" checked="checked" id="AC"/>
+							<label>Air Conditioned</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isAC"  id="AC"/>
 							<br/>
 							<br/>
 							<label>Sleeper</label>&nbsp; &nbsp; &nbsp; <input type="checkbox" name="isSleeper" id="SLPR"/>
@@ -333,7 +333,7 @@ $("#exec1").show("slow");
 						<section class="col col-5">				
 							<label class="label">Type-Preference (only for AIR)</label>
 							<br/>
-							<label>Food Service</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isFood" checked="checked" id="Food"/>
+							<label>Food Service</label> &nbsp;&nbsp;&nbsp;<input type="checkbox" name="isFood"  id="Food"/>
 							<br/>
 							
 						</section>
