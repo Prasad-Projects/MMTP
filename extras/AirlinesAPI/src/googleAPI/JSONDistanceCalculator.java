@@ -16,8 +16,8 @@ public class JSONDistanceCalculator {
 		//BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		try
 		{
-			int perPerson = 3;  // 3Litres for 100km on one person
-			int aviationFuelCost = 53;
+			double perPerson = 1.55;  // 3Litres for 100km on one person
+			int trainFuelCost = 58;
 			//System.out.println("Enter the source place : ");
 			//beg=br.readLine();
 			//System.out.println("Enter the distance place : ");
@@ -28,15 +28,18 @@ public class JSONDistanceCalculator {
 			
 			
 			int j = 0;
-			for(j=0;j<574;j++)
+			for(j=0;j<331830;j++)
 			{	
+				
 				beg = route[j][0];
 				end = route[j][1];
+				
 				//System.out.println(beg + " " + end);
 				start.delete(0, start.length());
 				start.append(beg);
 				stop.delete(0, stop.length());
 				stop.append(end);
+				if(end.length()!=3){
 				for(int i=0; i<start.length(); i++)
 				{
 					if(start.charAt(i)==' ')
@@ -57,11 +60,12 @@ public class JSONDistanceCalculator {
 				totDistance=ji.calcDistance(start,stop);
 								
 				//System.out.println("The distance between "+start+" and "+stop+" is = "+totDistance);
-				float calc = (totDistance/100)*3*aviationFuelCost;
-				System.out.println("The static price of a plane ticket = " + calc);
+				float calc = (totDistance/100)*3*trainFuelCost;
+				System.out.println("The static price of a plane ticket = " + j+ calc);
+
 				if(calc == 0.0) continue;
 				temp.update(beg,end,totDistance,calc);
-				
+				}
 			}
 			temp.close_connection();
 			}catch(Exception e)

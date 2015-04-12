@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="/home/kartik/MMTP/MMTP/extras/GoogleDistanceAPIInJava/org.json.jar"/>
-	<classpathentry kind="lib" path="/home/kartik/Libraries/jdbc-local-1.0.10.final-sources.jar"/>
-	<classpathentry kind="lib" path="/home/kartik/Libraries/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="/home/sukriti/Documents/MMTP/MMTP/extras/AirlinesAPI/Libraries/org.json.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/sukriti/Documents/MMTP/MMTP/extras/AirlinesAPI/Libraries/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/sukriti/Documents/MMTP/MMTP/extras/AirlinesAPI/Libraries/jdbc-local-1.0.10.final-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

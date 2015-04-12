@@ -5,11 +5,11 @@ import java.sql.*;
 public class Database_conn {
 
 	final static String JDBC_Driver = "com.mysql.jdbc.Driver";
-	final static String DB_URL = "jdbc:mysql://localhost/";
+	final static String DB_URL = "jdbc:mysql://localhost/train";
 	
 	//  Database credentials
-	static final String USER = "newuser";
-	static final String PASS = "password";
+	static final String USER = "root";
+	static final String PASS = "12345";
 	Connection conn = null;
 	Statement stmt = null;
 	
@@ -21,18 +21,19 @@ public class Database_conn {
 			conn = DriverManager.getConnection(DB_URL,USER,PASS);
 			//System.out.println("Connection Error");
 			stmt = conn.createStatement();
+			
+
 		}catch(SQLException e){
 			System.out.println("SQL Exception");
 		}
 	}
 	String[][] getDetails() throws ClassNotFoundException, SQLException{
 	
-		String[][] route = new String[575][];
-		//Use database
-		String sql = "USE mmtp1";
+		String[][] route = new String[331830][2];
+		String sql = "USE train";
 		stmt.executeUpdate(sql);
 		
-		sql = "SELECT DISTINCT src,dest from airline";
+		sql = "SELECT DISTINCT src,dest from FinalSchedule";
 		ResultSet res = stmt.executeQuery(sql);
 		int i = 0;
 		while(res.next()){
@@ -48,7 +49,8 @@ public class Database_conn {
 	}
 	void update(String beg,String end,float distance,float price)
 	{
-		String sql = "UPDATE airline SET distance = " + distance + " ,price = " + price + 
+		
+		String sql = "UPDATE FinalSchedule SET distance = " + distance + " ,cost = " + price + 
 				" WHERE src = '" + beg + "' AND dest = '" + end + "'";
 		//System.out.println(sql);
 		try {
