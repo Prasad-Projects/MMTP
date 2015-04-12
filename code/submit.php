@@ -64,7 +64,11 @@ if($isBus==1){
 	
 
 	$dbhost = '127.0.0.1';
+<<<<<<< HEAD
 	$conn = mysqli_connect("127.0.0.1","root","12345","buses");
+=======
+	$conn = mysqli_connect("127.0.0.1","root","","buses");
+>>>>>>> 442f42251ef879f91e50a812a96109f0e18bd160
 	if(mysqli_connect_errno())
 	{
 		die('Could not connect: ' . mysqli_connect_error());
@@ -228,8 +232,13 @@ if($isTrain==1){
 	{
 		$maxTime = max($maxTime,$row['durationint']);
 		$minTime = min($minTime,$row['durationint']);
+<<<<<<< HEAD
 		$maxFare = max($maxFare,$row['cost']);
 		$minFare = min($minFare,$row['cost']);
+=======
+		$maxFare = max($maxFare,$row['price']);
+		$minFare = min($minFare,$row['price']);
+>>>>>>> 442f42251ef879f91e50a812a96109f0e18bd160
 		//fare directly proportional to distancee
 	}
 	$arr=array();
@@ -243,7 +252,11 @@ if($isTrain==1){
 
 	while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
 	{
+<<<<<<< HEAD
 		$normTime = ($row['durationint'] - $maxTime)/($maxTime - $minTime);
+=======
+		$normTime = ($row['duration'] - $maxTime)/($maxTime - $minTime);
+>>>>>>> 442f42251ef879f91e50a812a96109f0e18bd160
 		$normFare = ($row['cost'] - $maxFare)/($maxFare - $minFare + 0.0001);
 
 		$U = (11 - $row['duration'])*1000*$normTime + $row['cost']*$normFare;
@@ -281,7 +294,11 @@ if($isTrain==1){
 		$found = false;
 		if(array_key_exists($value, $AirArray)){
 			$numKeys = count($AirArray);
+<<<<<<< HEAD
 			echo ($i+1).". Air|";
+=======
+			echo ($i+1).". Air|"
+>>>>>>> 442f42251ef879f91e50a812a96109f0e18bd160
 			for($j=0;$j<numKeys;$j++){
 				echo $AirArray[$value][$j].'|';
 			}
@@ -292,7 +309,11 @@ if($isTrain==1){
 		//$value = $CumU[$i];
 		if(array_key_exists($value, $TrainArray)){
 			$numKeys = count($TrainArray);
+<<<<<<< HEAD
 			echo ($i+1).". Train|";
+=======
+			echo ($i+1).". Train|"
+>>>>>>> 442f42251ef879f91e50a812a96109f0e18bd160
 			for($j=0;$j<numKeys;$j++){
 				echo $TrainArray[$value][$j].'|';
 			}
@@ -302,7 +323,11 @@ if($isTrain==1){
 		}
 		if(array_key_exists($value, $BusArray)){
 			$numKeys = count($BusArray);
+<<<<<<< HEAD
 			echo ($i+1).". Bus|";
+=======
+			echo ($i+1).". Bus|"
+>>>>>>> 442f42251ef879f91e50a812a96109f0e18bd160
 			for($j=0;$j<numKeys;$j++){
 				echo $BusArray[$value][$j].'|';
 			}
