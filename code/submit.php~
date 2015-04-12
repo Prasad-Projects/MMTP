@@ -65,8 +65,6 @@ if($isBus==1){
 
 	$dbhost = '127.0.0.1';
 
-	$conn = mysqli_connect("127.0.0.1","root","12345","buses");
-
 	$conn = mysqli_connect("127.0.0.1","root","","buses");
 
 	if(mysqli_connect_errno())
@@ -142,7 +140,7 @@ if($isBus==1){
 if($isAir==1){
 	echo "<br/><br/><h2>AIR</h2>";
 	$dbhost = '127.0.0.1';
-	$conn = mysqli_connect("127.0.0.1","root","12345","buses");
+	$conn = mysqli_connect("127.0.0.1","root","","buses");
 	if(mysqli_connect_errno())
 	{
 	die('Could not connect: ' . mysqli_connect_error());
@@ -214,7 +212,7 @@ if($isAir==1){
 if($isTrain==1){
 	echo "<br/><br/><h2>Train</h2>";
 	$dbhost = '127.0.0.1';
-	$conn = mysqli_connect("127.0.0.1","root","12345","train");
+	$conn = mysqli_connect("127.0.0.1","root","","train");
 	if(mysqli_connect_errno())
 	{
 		die('Could not connect: ' . mysqli_connect_error());
