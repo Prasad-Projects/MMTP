@@ -64,7 +64,11 @@ if($isBus==1){
 	
 
 	$dbhost = '127.0.0.1';
+
 	$conn = mysqli_connect("127.0.0.1","root","12345","buses");
+
+	$conn = mysqli_connect("127.0.0.1","root","","buses");
+
 	if(mysqli_connect_errno())
 	{
 		die('Could not connect: ' . mysqli_connect_error());
@@ -228,8 +232,10 @@ if($isTrain==1){
 	{
 		$maxTime = max($maxTime,$row['durationint']);
 		$minTime = min($minTime,$row['durationint']);
+
 		$maxFare = max($maxFare,$row['cost']);
 		$minFare = min($minFare,$row['cost']);
+
 		//fare directly proportional to distancee
 	}
 	$arr=array();
@@ -243,7 +249,10 @@ if($isTrain==1){
 
 	while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
 	{
+
 		$normTime = ($row['durationint'] - $maxTime)/($maxTime - $minTime);
+
+
 		$normFare = ($row['cost'] - $maxFare)/($maxFare - $minFare + 0.0001);
 
 		$U = (11 - $row['duration'])*1000*$normTime + $row['cost']*$normFare;
@@ -281,7 +290,9 @@ if($isTrain==1){
 		$found = false;
 		if(array_key_exists($value, $AirArray)){
 			$numKeys = count($AirArray);
+
 			echo ($i+1).". Air|";
+
 			for($j=0;$j<numKeys;$j++){
 				echo $AirArray[$value][$j].'|';
 			}
@@ -292,7 +303,9 @@ if($isTrain==1){
 		//$value = $CumU[$i];
 		if(array_key_exists($value, $TrainArray)){
 			$numKeys = count($TrainArray);
+
 			echo ($i+1).". Train|";
+
 			for($j=0;$j<numKeys;$j++){
 				echo $TrainArray[$value][$j].'|';
 			}
@@ -302,7 +315,9 @@ if($isTrain==1){
 		}
 		if(array_key_exists($value, $BusArray)){
 			$numKeys = count($BusArray);
+
 			echo ($i+1).". Bus|";
+
 			for($j=0;$j<numKeys;$j++){
 				echo $BusArray[$value][$j].'|';
 			}
