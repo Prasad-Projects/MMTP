@@ -308,6 +308,9 @@ $("#exec1").show("slow");
 							<br/>
 							<br/>
 							<label>Bus</label>&nbsp; &nbsp; &nbsp; <input type="checkbox" name="isBus" id="Bus"/>
+							<br/>
+							<br/>
+							<label>Train</label>&nbsp; &nbsp; &nbsp; <input type="checkbox" name="isTrain" id="Train"/>
 						</section>
 					</div>
 				</fieldset>

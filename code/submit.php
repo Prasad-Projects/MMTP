@@ -26,6 +26,7 @@ $isTrain=0;
 if(isset($_POST['isTrain']))
 {
     $isTrain=1;
+    echo " Train";
 }
 	
 $isBus=0;
@@ -58,7 +59,9 @@ if(isset($_POST['isSleeper']))
 }
 $index = 0;
 //Connection to database
-
+echo "<br/>";
+echo "<br/>";
+echo "<b>Number | Source | Destination | Departure Time | Arrival Time | Duration | Price | Extra Features</b>";
 if($isBus==1){
 	echo "<br/><br/><div><h2>BUS</h2>";
 	
@@ -115,18 +118,18 @@ if($isBus==1){
 	//Displaying top 3 results
 	foreach ($arr as $key => $value) {
 		//echo "$key = $value\n";
-		$sql = "SELECT operator,src_name,dest_name,bus_starttime,bus_endtime,bus_fare,bus_isAc,bus_isNAc,bus_isSlpr FROM mytable WHERE bus_routeid = '$key';";
+		$sql = "SELECT bus_routeid,src_name,dest_name,bus_starttime,bus_endtime,bus_fare,bus_isAc,bus_isNAc,bus_duration,bus_isSlpr FROM mytable WHERE bus_routeid = '$key';";
 		$retval = mysqli_query($conn, $sql) or die ('Error');
 		$row = mysqli_fetch_array($retval, MYSQLI_ASSOC) ;
 		$CumU[$index] = $value;
 		$index = $index + 1;
-		$BusArray[$value] = array($row['operator'],$row['src_name'],$row['dest_name'],$row['bus_starttime'],$row['bus_endtime'],$row['bus_fare'],$row['bus_isSlpr'],$row['bus_isNAc']);
-		/*echo $row['operator'].' | '.$row['src_name'].' | '.$row['dest_name'].' | '.$row['bus_starttime'].' | '.$row['bus_endtime'].' | Rs'.$row['bus_fare']."&nbsp;";
-		if($row['bus_isSlpr']=='true') print 'Sleeper | ';
+		$BusArray[$value] = array($row['bus_routeid'],$row['src_name'],$row['dest_name'],$row['bus_starttime'],$row['bus_endtime'],$row['bus_duration'],$row['bus_fare'],$row['bus_isSlpr'],$row['bus_isNAc']);
+		echo $row['bus_routeid'].' | '.$row['src_name'].' | '.$row['dest_name'].' | '.$row['bus_starttime'].' | '.$row['bus_endtime'].' | '.$row['bus_duration'].' | Rs'.$row['bus_fare']."&nbsp;";
+		if($row['bus_isSlpr']=='true') print '| Sleeper | ';
 		else print 'Non-Sleeper | ';
-		if($row['bus_isNAc']=='true') echo 'Non-AC';
+		if($row['bus_isNAc']=='true') echo '| Non-AC |';
 		else echo 'AC';
-		echo "<br/>";*/
+		echo "<br/>";
 		$i=$i+1;
 		if($i >= 3)
 			break;
@@ -197,9 +200,9 @@ if($isAir==1){
 		$CumU[$index] = $value;
 		$index = $index + 1;
 		$AirArray[$value] = array($row['airl'],$row['a_id'],$row['src'],$row['dest'],$row['start'],$row['end'],$row['duration'],$row['price']);
-		//echo $row['airl'].'|'.$row['a_id'].'|'.$row['src'].'|'.$row['dest'].'|'.$row['start'].'|'.$row['end'].'|'.$row['duration'].'|'.$row['price'];
+		echo $row['airl'].'|'.$row['a_id'].'|'.$row['src'].'|'.$row['dest'].'|'.$row['start'].'|'.$row['end'].'|'.$row['duration'].'|'.$row['price'];
 
-		//echo "<br/>";
+		echo "<br/>";
 		$i=$i+1;
 		if($i >= 3)
 		break;
@@ -212,14 +215,18 @@ if($isAir==1){
 if($isTrain==1){
 	echo "<br/><br/><h2>Train</h2>";
 	$dbhost = '127.0.0.1';
-	$conn = mysqli_connect("127.0.0.1","root","","train");
+	$conn = mysqli_connect("127.0.0.1","root","","buses");
 	if(mysqli_connect_errno())
 	{
 		die('Could not connect: ' . mysqli_connect_error());
 	}
-	$sql = "SELECT * from FinalSchedule where src='$Source' AND dest='$Destination';";
+	$sql = "SELECT * from finalschedule where src='$Source' AND dest='$Destination';";
 	$retval = mysqli_query($conn, $sql) or die ('Error1');
 //Computing upper and lower bounds for fare,travel time and available seats
+	$row_cnt = $retval->num_rows;
+	if($row_cnt==0)
+		echo "No train route matches the preferences";
+    
 	$maxTime = 1;
 	$minTime = 500000;
 	$maxFare = 1;
@@ -239,16 +246,15 @@ if($isTrain==1){
 	$arr=array();
 	//Computing U and adding it to the array, $arr
 
-	$sql = "SELECT * from airline where src='$Source' AND dest='$Destination'";
+	$sql = "SELECT * from finalschedule where src='$Source' AND dest='$Destination'";
 	$retval = mysqli_query($conn, $sql) or die ('Error2');
 	$row_cnt = $retval->num_rows;
-	if($row_cnt==0)
-		echo "No air route matches the preferences";
-
+	
+    
 	while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
 	{
 
-		$normTime = ($row['durationint'] - $maxTime)/($maxTime - $minTime);
+		$normTime = ($row['durationint'] - $maxTime)/($maxTime - $minTime + 0.0001);
 
 
 		$normFare = ($row['cost'] - $maxFare)/($maxFare - $minFare + 0.0001);
@@ -263,15 +269,15 @@ if($isTrain==1){
 	foreach ($arr as $key => $value) {
 	//echo "$key = $value\n";
 
-		$sql = "SELECT Train_num,src,dest,start,end,duration,cost FROM FinalSchedule WHERE Train_num = '$key';";
+		$sql = "SELECT Train_num,src,dest,start,end,duration,cost FROM finalschedule WHERE Train_num = '$key' AND src='$Source' AND dest='$Destination'";
 		$retval = mysqli_query($conn, $sql) or die ('Error');
 		$row = mysqli_fetch_array($retval, MYSQLI_ASSOC) ;
 		$CumU[$index] = $value;
 		$index = $index + 1;
 		$TrainArray[$value] = array($row['Train_num'],$row['src'],$row['dest'],$row['start'],$row['end'],$row['duration'],$row['cost']);
-		//echo $row['Train_num'].'|'.$row['src'].'|'.$row['dest'].'|'.$row['start'].'|'.$row['end'].'|'.$row['duration'].'|'.$row['cost'];
+		echo $row['Train_num'].'|'.$row['src'].'|'.$row['dest'].'|'.$row['start'].'|'.$row['end'].'|'.$row['duration'].'|'.$row['cost'];
 
-		//echo "<br/>";
+		echo "<br/>";
 		$i=$i+1;
 		if($i >= 3)
 		break;
@@ -281,7 +287,7 @@ if($isTrain==1){
 	mysqli_close($conn);
 
 }
-	krsort($CumU);
+	/*krsort($CumU);
 	$i = 0;
 	while($i < $index){
 		$value = $CumU[$i];
@@ -323,8 +329,8 @@ if($isTrain==1){
 			$i++;
 			continue;
 		}
-
-	}
+           
+	} */
 
 
 ?>
