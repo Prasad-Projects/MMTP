@@ -1,0 +1,13 @@
+Enter Departure Station name : Bangarapet
+Enter Arrival Station name : Madgaon
+Enter Departure Time: 03:30
+**Schedule**
+12657  Bangarapet to  Bangalore East 3:32 4:23
+12657  Bangalore East to  Bangalore Cantonment 4:25 4:35
+12691  Bangalore Cantonment to  Bangalore City Junction 5:5 5:25
+12691  Bangalore City Junction to  Sri Sathya Sai Prasanthi  5:40 9:30
+12628  Sri Sathya Sai Prasanthi  to  Hindupur 10:10 11:3
+12628  Hindupur to  Khandwa 11:5 11:10
+12628  Khandwa to  Bhusaval Junction 11:15 12:55
+12779  Bhusaval Junction to  Madgaon 12:55 15:45
+Done

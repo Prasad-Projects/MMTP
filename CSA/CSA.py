@@ -29,9 +29,13 @@ Station_Code = {}
 f = open("Station_Code.txt","r")
 for line in f:
 	y = line[:-1].split(" ")
-	Station_Code[int(y[0])] = y[1]
+	str1 = ""
+	for x in y[1:]:
+		str1 += " " + x
+	Station_Code[int(y[0])] = str1
+	#print int(y[0]),str1
 #for key,value in Station_Code.iteritems():
-#	print key,value
+	#print key,value
 f.close()
 
 #Program execution starts here
@@ -43,15 +47,17 @@ TimeTable(connections)
 #	print x.train_no,x.dept_stn,x.arr_stn,x.dep_time,x.arr_time
 Incoming_Connection = array('I') #Best Incoming connection as unsigned integer
 Earliest_Arrival = array('I') #Arrival timestamp as unsigned integer
-
+#Departure_Station = "Bangarapet"
 Departure_Station = raw_input("Enter Departure Station name : ")
+
 for k,v in Station_Code.iteritems():
-    if v == Departure_Station:
-        Departure_Station = k
-        break
+	if v[1:] == Departure_Station:
+        	Departure_Station = k
+        	break
+#Arrival_Station = "Madgaon"
 Arrival_Station = raw_input("Enter Arrival Station name : ")
 for k,v in Station_Code.iteritems():
-    if v == Arrival_Station:
+    if v[1:] == Arrival_Station:
         Arrival_Station = k
         break
 
