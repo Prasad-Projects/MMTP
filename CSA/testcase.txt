@@ -1,0 +1,51 @@
+Train_no Dept_Station Arr_Station Dept_Time Arr_Time
+	1 		503 		1366 		60 			120
+	1 		1366 		1618 		120 		180
+	2 		503 		1366 		60 			150
+	3 		503 		1366 		120 		180
+	2 		1366 		1618 		180 		240
+	3 		1366 		1618 		240 		300
+	2 		1618 		669 		300 		360
+	1 		1618 		669 		420 		540
+	3 		1618 		669 		480 		540
+-----------------------------------------------------------------------------------
+The Arrival and Departure times are expressed in UNIX timestamp.
+We'll iterate over all 9 connections.
+Let assume our departure time be 00:00 hrs, and we want to travel from station - 503 to station - 669
+Initially, all elements of Earliest_Arrival and Incoming_Connection arrays are set to a max value.
+
+First Iteration : 
+Departure time from 503 is greater than 0(timestamp of 00:00hrs) and Arrival Time(120) < max
+Earliest_Arrival[1366] = 120
+Incoming_Connection[1366] = 0
+
+Second Iteration :
+Dep_time from 1366(value = 120) >= Earliest_Arrival[1366](value = 120)
+Earliest_Arrival[1618] = 180
+Incoming_Connection[1618] = 1
+
+Third Iteration :
+First condition not true since Earliest_Arrival[1366] < 150
+
+Fourth Iteration :
+Similar to previous iteration. Condition not true
+
+Fifth Iteration :
+First condition not true
+
+Sixth Iteration :
+First condition not true
+
+Seventh Iteration :
+Dep_time from 1618(value = 300) > Earliest_Arrival[1618](value = 180)
+Earliest_Arrival[669] = 360
+Incoming_Connection[669] = 6
+
+8th and 9th Iteration :
+Earliest Arrival time already obtained.
+
+After this, we backtrack the Incoming connections array from the arrival station and print the route.
+Route:
+1  503 to 1366 00:01 00:02
+1  1366 to 1618 00:02 00:03
+2  1618 to 669 00:05 00:06
