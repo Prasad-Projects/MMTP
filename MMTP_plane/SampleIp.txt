@@ -1,0 +1,7 @@
+Enter Departure Station name : PATNA
+Enter Arrival Station name : BANGALORE
+Enter Departure Time: 00:00
+**Schedule**
+9W_2686_ATR-72  PATNA to  KOLKATA 8:10 9:30
+6E_345_A320  KOLKATA to  BANGALORE 9:55 12:25
+Done
