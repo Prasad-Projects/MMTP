@@ -1,0 +1,16 @@
+kartik@kartik:~/Testing$ python CSA.py 
+Enter Departure Station name : Madgaon 
+Station found
+Enter Arrival Station name : Bangarapet
+Station found
+Enter Departure Time: 20:00
+**Schedule**
+12618  Madgaon to  Itarsi Junction 20:40 21:35
+12590  Itarsi Junction to  Bhopal Junction 22:15 00:05
+12688  Bhopal Junction to  Arakkonam Junction 01:50 03:48
+12688  Arakkonam Junction to  Jolarpettai 03:50 05:58
+12659  Jolarpettai to  Bhubaneshwar 06:00 06:10
+12839  Bhubaneshwar to  Balugan 06:15 08:00
+12510  Balugan to  Bangarapet 09:42 09:43
+Done
+

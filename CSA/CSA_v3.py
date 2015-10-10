@@ -62,7 +62,7 @@ Departure_Station = raw_input("Enter Departure Station name : ")
 for k,v in Station_Code.iteritems():
 	if v[1:] == Departure_Station:
         	Departure_Station = k
-        	print 'Came here hah!'
+        	print 'Station found'
         	break
 #Arrival_Station = "Bangarapet"
 #sys.exit()
@@ -70,7 +70,7 @@ Arrival_Station = raw_input("Enter Arrival Station name : ")
 for k,v in Station_Code.iteritems():
     if v[1:] == Arrival_Station:
         Arrival_Station = k
-        print 'Came here hah2!'
+        print 'Station found'
         break
 
 temp = (raw_input("Enter Departure Time: ").split(":"))
