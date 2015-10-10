@@ -1,0 +1,1515 @@
+------------------------------------------------------------------------
+Query:  Radhanpur to  Hasimara
+Departure Time: 00:00
+**Schedule**
+12959  Radhanpur to  Santalpur 12:54 13:22
+12959  Santalpur to  Samakhiali B G 13:24 15:05
+12937  Samakhiali B G to  Dhrangadhra 17:56 19:42
+12937  Dhrangadhra to  Kanpur City 19:44 19:55
+12801  Kanpur City to  Khurda Road 22:20 22:45
+12801  Khurda Road to  Cuttack 22:50 23:45
+12888  Cuttack to  Jajpur Kheonjhar Road 00:15 01:00
+12513  Jajpur Kheonjhar Road to  Kamakhya Junction 04:10 05:05
+12509  Kamakhya Junction to  Balasore 05:07 06:20
+12509  Balasore to  Kharagpur Junction 06:22 08:15
+12876  Kharagpur Junction to  Etawah 10:00 10:34
+12506  Etawah to  New Cooch Behar 10:48 11:00
+13142  New Cooch Behar to  GDX  12:15 12:35
+13142  GDX  to  Falakata 12:36 13:04
+13142  Falakata to  Dhupguri 13:05 13:37
+13142  Dhupguri to  New Maynaguri 13:42 14:01
+13142  New Maynaguri to  Jalpaiguri Road 14:02 14:16
+13142  Jalpaiguri Road to  Raninagar Jalpaiguri 14:17 14:40
+13142  Raninagar Jalpaiguri to  BLK  15:10 15:21
+13142  BLK  to  New Jalpaiguri 15:22 15:45
+13149  New Jalpaiguri to  Hasimara 07:45 10:33
+Done
+------------------------------------------------------------------------
+Query:  SUD  to  Chinchli
+Departure Time: 00:00
+**Schedule**
+13247  SUD  to  Barsoi Junction 16:43 16:55
+12509  Barsoi Junction to  Kishanganj 18:41 19:31
+12509  Kishanganj to  Vizianagaram 19:33 20:40
+12509  Vizianagaram to  New Jalpaiguri 20:42 21:30
+12509  New Jalpaiguri to  Palasa 21:45 22:45
+12509  Palasa to  Dhupguri 22:47 22:53
+12509  Dhupguri to  Bangalore Cantonment 22:55 23:40
+12648  Bangalore Cantonment to  Bangalore City Junction 00:30 01:00
+12648  Bangalore City Junction to  Hosur 01:30 02:33
+12648  Hosur to  Balharshah 02:35 05:15
+12688  Balharshah to  Meerut City 12:00 12:17
+12688  Meerut City to  Madurai Junction 12:20 12:45
+11022  Madurai Junction to  Belgaum 17:30 18:03
+11036  Belgaum to  Ghatprabha 18:05 18:54
+12779  Ghatprabha to  Raybag 20:45 21:14
+11048  Raybag to  Chinchli 03:45 03:51
+Done
+------------------------------------------------------------------------
+Query:  Rewari to  Palakkad Junction
+Departure Time: 00:00
+**Schedule**
+12462  Rewari to  Pataudi Road 04:55 05:15
+12462  Pataudi Road to  Garhi Harsaru 05:17 05:32
+12462  Garhi Harsaru to  Gurgaon 05:34 05:43
+12462  Gurgaon to  Delhi Cantonment 05:45 06:00
+12371  Delhi Cantonment to  Dhanbad Junction 11:11 12:00
+12353  Dhanbad Junction to  Gaya Junction 12:05 14:50
+11046  Gaya Junction to  Daund Junction 17:00 17:15
+11019  Daund Junction to  Visakhapatnam Junction 20:40 21:00
+12659  Visakhapatnam Junction to  Palakkad Junction 23:15 00:05
+Done
+------------------------------------------------------------------------
+Query:  ODG  to  BNE 
+Departure Time: 00:00
+**Schedule**
+11057  ODG  to  Goraya 14:05 14:12
+11057  Goraya to  Mandi Dip 14:14 14:19
+11057  Mandi Dip to  Phagwara Junction 14:21 14:25
+11057  Phagwara Junction to  Bhopal Habibganj 14:27 14:38
+11057  Bhopal Habibganj to  Jalandhar Cantonment 14:40 14:41
+11057  Jalandhar Cantonment to  Bhopal Junction 14:43 15:05
+12944  Bhopal Junction to  Itarsi Junction 16:30 18:15
+11065  Itarsi Junction to  Laheria Sarai 00:25 00:49
+11065  Laheria Sarai to  Pipariya 00:54 01:18
+11471  Pipariya to  Gadarwara 02:05 02:37
+11271  Gadarwara to  BNE  18:19 18:31
+Done
+------------------------------------------------------------------------
+Query:  GMDN to  SUD 
+Departure Time: 00:00
+**Schedule**
+12828  GMDN to  Kharagpur Junction 09:09 09:20
+12876  Kharagpur Junction to  Etawah 10:00 10:34
+12506  Etawah to  New Cooch Behar 10:48 11:00
+13142  New Cooch Behar to  GDX  12:15 12:35
+13142  GDX  to  Falakata 12:36 13:04
+13142  Falakata to  Dhupguri 13:05 13:37
+13142  Dhupguri to  New Maynaguri 13:42 14:01
+13142  New Maynaguri to  Jalpaiguri Road 14:02 14:16
+13142  Jalpaiguri Road to  Raninagar Jalpaiguri 14:17 14:40
+13142  Raninagar Jalpaiguri to  BLK  15:10 15:21
+13142  BLK  to  New Jalpaiguri 15:22 15:45
+12505  New Jalpaiguri to  Kishanganj 17:15 18:21
+12505  Kishanganj to  Ghaziabad 18:23 18:45
+12505  Ghaziabad to  Barsoi Junction 18:47 19:13
+13148  Barsoi Junction to  KDPR 19:53 20:16
+13141  KDPR to  Azamnagar Road 23:15 23:30
+13246  Azamnagar Road to  TETA 08:24 09:05
+13247  TETA to  SUD  16:31 16:42
+Done
+------------------------------------------------------------------------
+Query:  Dhampur to  CRLM
+Departure Time: 00:00
+**Schedule**
+13010  Dhampur to  Seohara 00:39 00:52
+13010  Seohara to  Barakar 00:54 01:54
+13010  Barakar to  Rampur 01:56 02:38
+13019  Rampur to  Barhiya 06:00 06:06
+12335  Barhiya to  Bhusaval Junction 11:33 11:50
+12628  Bhusaval Junction to  Bangalore Cantonment 13:05 13:08
+12639  Bangalore Cantonment to  Bangalore City Junction 13:40 14:00
+12648  Bangalore City Junction to  Hosur 01:30 02:33
+12678  Hosur to  CRLM 18:15 18:47
+Done
+------------------------------------------------------------------------
+Query:  Soro to  Kalyan
+Departure Time: 00:00
+**Schedule**
+12891  Soro to  MKO  07:07 07:19
+12891  MKO  to  Jajpur Kheonjhar Road 07:20 08:09
+12891  Jajpur Kheonjhar Road to  Cuttack 08:10 09:18
+12891  Cuttack to  Bhubaneshwar 09:20 10:00
+12821  Bhubaneshwar to  Khurda Road 12:50 13:15
+12876  Khurda Road to  Rae Bareli Junction 15:45 15:48
+12876  Rae Bareli Junction to  Amethi 15:53 16:44
+12173  Amethi to  Kalyan 17:36 17:05
+Done
+------------------------------------------------------------------------
+Query:  KKW  to  Nihalgarh
+Departure Time: 00:00
+**Schedule**
+12134  KKW  to  Ratnagiri 00:04 02:15
+12134  Ratnagiri to  Panvel 02:20 08:10
+12134  Panvel to  Thane 08:15 09:23
+11055  Thane to  Janghai Junction 11:15 11:20
+11055  Janghai Junction to  Kalyan 11:22 11:35
+11061  Kalyan to  BHLP 13:00 13:21
+12791  BHLP to  Varanasi Junction 14:02 14:25
+12391  Varanasi Junction to  Jaunpur City 15:12 16:04
+12391  Jaunpur City to  Sultanpur 16:05 17:08
+12391  Sultanpur to  Musafir Khana 17:10 17:35
+12391  Musafir Khana to  Nihalgarh 17:36 17:52
+Done
+------------------------------------------------------------------------
+Query:  Darbhanga Junction to  Birur Junction
+Departure Time: 00:00
+**Schedule**
+14006  Darbhanga Junction to  Tundla Junction 20:15 20:18
+12304  Tundla Junction to  Etawah 20:40 21:38
+12304  Etawah to  Kanpur City 21:40 23:35
+11015  Kanpur City to  KSRA 00:20 00:33
+11015  KSRA to  Unnao Junction 00:35 00:41
+11015  Unnao Junction to  Igatpuri 00:43 01:25
+11015  Igatpuri to  Devlali 01:30 02:18
+11015  Devlali to  Nasik Road 02:20 02:30
+11015  Nasik Road to  Barabanki Junction 02:35 02:38
+11015  Barabanki Junction to  Manmad Junction 02:40 03:25
+11015  Manmad Junction to  Gonda Junction 03:30 04:05
+11015  Gonda Junction to  Chalisgaon Junction 04:10 04:22
+11015  Chalisgaon Junction to  Mankapur Junction 04:24 04:38
+11015  Mankapur Junction to  Babhnan 04:40 05:03
+11015  Babhnan to  Jalgaon Junction 05:05 05:28
+11057  Jalgaon Junction to  JMD  06:10 06:17
+11057  JMD  to  Samalkha 06:19 06:21
+11057  Samalkha to  Rajmane 06:23 06:28
+11057  Rajmane to  MWK  06:30 06:35
+11057  MWK  to  Bhusaval Junction 06:37 06:40
+12782  Bhusaval Junction to  Birur Junction 23:55 00:40
+Done
+------------------------------------------------------------------------
+Query:  Pali Marwar to  Gotan
+Departure Time: 00:00
+**Schedule**
+12479  Pali Marwar to  Marwar Junction 19:45 20:30
+12548  Marwar Junction to  Beawar 23:40 00:54
+12915  Beawar to  Ajmer Junction 01:17 02:20
+12915  Ajmer Junction to  Jaipur 02:30 04:30
+12915  Jaipur to  Bandikui Junction 04:40 05:50
+12195  Bandikui Junction to  Dausa 07:45 08:05
+12195  Dausa to  GTJT 08:07 08:48
+12195  GTJT to  Gandhinagar JPR 08:50 09:14
+12414  Gandhinagar JPR to  Phulera Junction 09:35 10:52
+12468  Phulera Junction to  Sambhar Lake 15:55 16:02
+12468  Sambhar Lake to  Kuchaman City 16:04 16:37
+12468  Kuchaman City to  Makrana Junction 16:39 16:53
+12468  Makrana Junction to  Gachhipura 16:55 17:17
+12468  Gachhipura to  Degana Junction 17:19 17:34
+12468  Degana Junction to  Ren 17:36 17:54
+12468  Ren to  Merta Road Junction 17:56 18:10
+12465  Merta Road Junction to  Gotan 20:21 20:36
+Done
+------------------------------------------------------------------------
+Query:  Rajkot Junction to  Nokha
+Departure Time: 00:00
+**Schedule**
+11088  Rajkot Junction to  Gondal 12:37 13:36
+11088  Gondal to  Navagadh 13:38 14:23
+11088  Navagadh to  Junagadh Junction 14:25 15:16
+11466  Junagadh Junction to  Bina Junction 15:52 16:10
+13025  Bina Junction to  Dhanbad Junction 16:15 17:15
+12307  Dhanbad Junction to  Merta Road Junction 03:17 04:10
+12468  Merta Road Junction to  MDW  18:35 19:11
+12468  MDW  to  Nagaur 19:13 19:31
+12468  Nagaur to  Nokha 19:33 20:31
+Done
+------------------------------------------------------------------------
+Query:  Melmaruvattur to  Khandala
+Departure Time: 00:00
+**Schedule**
+11064  Melmaruvattur to  Chengalpattu 02:25 03:08
+11064  Chengalpattu to  Tambaram 03:10 03:39
+11064  Tambaram to  Chennai Egmore 03:40 04:40
+12651  Chennai Egmore to  Jhansi Junction 09:05 12:00
+12804  Jhansi Junction to  Rajamundry 12:45 13:36
+12804  Rajamundry to  Samalkot Junction 13:38 14:15
+11019  Samalkot Junction to  Lonavala 17:20 17:43
+12116  Lonavala to  Khandala 04:10 04:13
+Done
+------------------------------------------------------------------------
+Query:  Ghazipur City to  Kanyakumari
+Departure Time: 00:00
+**Schedule**
+12669  Ghazipur City to  Chandrapur 08:35 08:39
+12723  Chandrapur to  Nagpur 12:55 15:45
+12540  Nagpur to  Balharshah 16:50 19:50
+12642  Balharshah to  Satur 03:40 04:33
+12667  Satur to  Tirunelveli Junction 04:35 06:25
+12642  Tirunelveli Junction to  Kanyakumari 06:30 08:45
+Done
+------------------------------------------------------------------------
+Query:  BKRD to  Chhapra
+Departure Time: 00:00
+**Schedule**
+13142  BKRD to  Samsi 19:00 19:12
+13142  Samsi to  Malda Town 19:13 20:35
+12345  Malda Town to  Kishanganj 21:45 23:35
+12345  Kishanganj to  New Jalpaiguri 23:37 01:40
+12345  New Jalpaiguri to  New Cooch Behar 02:00 04:15
+12345  New Cooch Behar to  New Alipurduar 04:17 04:33
+12510  New Alipurduar to  Bangalore Cantonment 11:05 11:05
+12976  Bangalore Cantonment to  Nagpur 12:25 14:00
+12512  Nagpur to  Erode Junction 17:00 17:05
+12522  Erode Junction to  Siwan Junction 17:15 17:30
+12522  Siwan Junction to  Chhapra 17:35 18:40
+Done
+------------------------------------------------------------------------
+Query:  CRN  to  Gachhipura
+Departure Time: 00:00
+**Schedule**
+10001  CRN  to  NWA  13:35 14:13
+10001  NWA  to  Nainpur Junction 14:14 15:15
+10001  Nainpur Junction to  PDE  15:35 15:54
+10001  PDE  to  GNS  15:55 16:39
+10001  GNS  to  SKY  16:40 17:41
+10001  SKY  to  BUQ  17:42 18:26
+10001  BUQ  to  Howbadh Jabalpur 18:27 19:20
+10001  Howbadh Jabalpur to  Jabalpur 19:22 19:35
+11271  Jabalpur to  DOE  21:05 21:17
+11271  DOE  to  GSPR 21:19 21:28
+11271  GSPR to  Sihora Road 21:30 21:41
+11447  Sihora Road to  Raniganj 01:03 01:08
+13010  Raniganj to  Bareilly 02:42 03:58
+13019  Bareilly to  Jhajha 04:20 04:25
+12332  Jhajha to  Madhupur Junction 05:45 06:47
+12332  Madhupur Junction to  Saharanpur 06:49 06:50
+12332  Saharanpur to  Chittaranjan 07:00 07:27
+12332  Chittaranjan to  Asansol Junction 07:29 08:05
+12315  Asansol Junction to  Jaipur 16:05 17:05
+12461  Jaipur to  Kuchaman City 02:45 04:17
+12461  Kuchaman City to  Makrana Junction 04:19 04:33
+12468  Makrana Junction to  Gachhipura 16:55 17:17
+Done
+------------------------------------------------------------------------
+Query:  BNDM to  Chandok
+Departure Time: 00:00
+**Schedule**
+13288  BNDM to  Rourkela 11:09 11:27
+12767  Rourkela to  Chakradharpur 12:27 13:43
+12375  Chakradharpur to  Ongole 17:53 18:58
+12254  Ongole to  Barddhaman Junction 21:00 21:37
+12351  Barddhaman Junction to  Durgapur 21:46 22:38
+12351  Durgapur to  Raniganj 22:40 22:58
+13404  Raniganj to  Asansol Junction 23:22 23:41
+13009  Asansol Junction to  Moradabad 00:16 00:20
+13009  Moradabad to  Barakar 00:30 00:33
+13009  Barakar to  Nagina 00:34 01:46
+13009  Nagina to  Gomoh Junction 01:47 01:55
+13009  Gomoh Junction to  Parasnath Station 02:05 02:23
+13009  Parasnath Station to  Parsabad 02:24 03:03
+13009  Parsabad to  Koderma 03:04 03:24
+13009  Koderma to  Paharpur 03:25 04:07
+13152  Paharpur to  Raisi 07:25 07:27
+13152  Raisi to  Gurpa 07:29 07:33
+13152  Gurpa to  Chandok 07:35 07:46
+Done
+------------------------------------------------------------------------
+Query:  Birur Junction to  Modnimb
+Departure Time: 00:00
+**Schedule**
+12782  Birur Junction to  Arsikere Junction 00:42 01:30
+12782  Arsikere Junction to  Manmad Junction 01:35 02:10
+13201  Manmad Junction to  KYT  04:55 04:57
+13201  KYT  to  Mirzapur 04:58 05:44
+12815  Mirzapur to  Allahabad Junction 06:28 07:35
+11034  Allahabad Junction to  Pune Junction 07:48 08:05
+11049  Pune Junction to  Satara 08:10 10:52
+11049  Satara to  Sangli 10:55 13:27
+11049  Sangli to  Miraj Junction 13:30 14:07
+11052  Miraj Junction to  Dhalgaon 01:20 02:18
+11052  Dhalgaon to  Sangola 02:20 03:36
+11052  Sangola to  Pandharpur 03:38 04:30
+11052  Pandharpur to  Modnimb 05:00 05:33
+Done
+------------------------------------------------------------------------
+Query:  Ramdevra to  ANDI
+Departure Time: 00:00
+**Schedule**
+12371  Ramdevra to  Rae Bareli Junction 21:34 23:15
+12353  Rae Bareli Junction to  Bareilly 23:20 05:00
+12353  Bareilly to  Rampur 05:05 06:04
+13152  Rampur to  Asansol Junction 11:17 11:34
+13026  Asansol Junction to  Damoh 11:59 12:18
+13026  Damoh to  Durgapur 12:20 12:29
+12312  Durgapur to  ANDI 05:20 05:38
+Done
+------------------------------------------------------------------------
+Query:  Jangaon to  Tirupati
+Departure Time: 00:00
+**Schedule**
+12772  Jangaon to  Secunderabad Junction 05:55 08:25
+12708  Secunderabad Junction to  Mahbubnagar 09:30 11:22
+12708  Mahbubnagar to  Gadwal 11:24 12:32
+12708  Gadwal to  Jhansi Junction 12:34 13:35
+12642  Jhansi Junction to  Gudur Junction 13:45 15:03
+12646  Gudur Junction to  Renigunta Junction 15:35 16:45
+12646  Renigunta Junction to  Bhopal Junction 16:55 17:05
+12646  Bhopal Junction to  Tirupati 17:10 17:10
+Done
+------------------------------------------------------------------------
+Query:  Babina to  Raxaul Junction
+Departure Time: 00:00
+**Schedule**
+11016  Babina to  Lalitpur 07:50 08:30
+11016  Lalitpur to  Bina Junction 08:32 09:45
+11016  Bina Junction to  Ganj Basoda 09:50 10:22
+11016  Ganj Basoda to  Vidisha 10:24 10:52
+11016  Vidisha to  Bhopal Junction 10:54 12:00
+11016  Bhopal Junction to  Bhopal Habibganj 12:05 12:15
+11057  Bhopal Habibganj to  Jalandhar Cantonment 14:40 14:41
+12476  Jalandhar Cantonment to  Ludhiana Junction 14:50 15:40
+12203  Ludhiana Junction to  Muzaffarpur Junction 18:30 19:07
+13021  Muzaffarpur Junction to  Motipur 05:15 05:36
+13021  Motipur to  Chakia 05:37 06:01
+13021  Chakia to  Sagauli Junction 06:02 07:15
+13021  Sagauli Junction to  Raxaul Junction 07:40 08:30
+Done
+------------------------------------------------------------------------
+Query:  Haveri to  KBN 
+Departure Time: 00:00
+**Schedule**
+11005  Haveri to  Harihar 13:52 14:48
+11005  Harihar to  Birur Junction 14:50 16:58
+11005  Birur Junction to  DRU  17:00 17:08
+11005  DRU  to  Tiptur 17:10 18:26
+11005  Tiptur to  Tumkur 18:28 19:28
+11005  Tumkur to  Yesvantpur Junction 19:30 20:50
+11005  Yesvantpur Junction to  Kalyan 22:00 22:06
+11057  Kalyan to  Mathura Junction 00:35 01:10
+12486  Mathura Junction to  Agra Cantonment 01:45 02:50
+12615  Agra Cantonment to  Raja Ki Mandi 02:50 02:58
+12180  Raja Ki Mandi to  Tundla Junction 05:59 06:48
+12180  Tundla Junction to  Firozabad 06:50 07:03
+12180  Firozabad to  Shikohabad Junction 07:05 07:20
+12180  Shikohabad Junction to  Etawah 07:22 08:00
+12180  Etawah to  Phaphund 08:02 08:40
+12180  Phaphund to  Jhinjhak 08:42 08:56
+12180  Jhinjhak to  Rura 08:58 09:12
+13112  Rura to  KBN  05:28 07:20
+Done
+------------------------------------------------------------------------
+Query:  GKH  to  Shakurbasti
+Departure Time: 00:00
+**Schedule**
+13187  GKH  to  Sainthia 10:13 11:16
+13187  Sainthia to  TPF  11:17 12:03
+13187  TPF  to  Rampur Hat 12:04 12:15
+12363  Rampur Hat to  Pakur 12:31 13:14
+12363  Pakur to  Malda Town 13:15 15:05
+12363  Malda Town to  Kishanganj 15:20 17:23
+12505  Kishanganj to  Ghaziabad 18:23 18:45
+12875  Ghaziabad to  New Delhi 20:59 21:40
+11449  New Delhi to  Delhi Kishanganj 00:10 00:26
+11449  Delhi Kishanganj to  Shakurbasti 00:28 00:42
+Done
+------------------------------------------------------------------------
+Query:  Charvattur to  OBR 
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Bijaysota to  Rampur Hat
+Departure Time: 00:00
+**Schedule**
+11652  Bijaysota to  KHBJ 08:01 08:29
+11652  KHBJ to  NKJ  08:31 09:29
+11652  NKJ  to  KTES 09:30 09:59
+11652  KTES to  Sihora Road 10:00 10:44
+11652  Sihora Road to  Jabalpur 10:45 11:40
+12361  Jabalpur to  Itarsi Junction 13:45 17:55
+12321  Itarsi Junction to  Barddhaman Junction 22:25 23:08
+13159  Barddhaman Junction to  Bolpur 97 Santiniketan 23:25 00:45
+13159  Bolpur 97 Santiniketan to  Rampur Hat 00:47 02:05
+Done
+------------------------------------------------------------------------
+Query:  Sihora Road to  Maksi
+Departure Time: 00:00
+**Schedule**
+11447  Sihora Road to  Raniganj 01:03 01:08
+12322  Raniganj to  Itarsi Junction 08:47 09:30
+12322  Itarsi Junction to  Pipariya 09:40 10:31
+12296  Pipariya to  Gudur Junction 10:40 11:03
+12969  Gudur Junction to  Berchha 19:52 20:05
+11472  Berchha to  Maksi 07:45 08:38
+Done
+------------------------------------------------------------------------
+Query:  Belha to  GJH 
+Departure Time: 00:00
+**Schedule**
+12856  Belha to  Bilaspur 13:10 13:35
+12549  Bilaspur to  Ludhiana Junction 14:50 15:00
+12715  Ludhiana Junction to  Jalgaon Junction 17:45 17:53
+11061  Jalgaon Junction to  Suraimanpur 18:30 18:44
+11061  Suraimanpur to  Chhapra 18:46 19:30
+11061  Chhapra to  Burhanpur 19:50 19:58
+11061  Burhanpur to  Dighwara 20:00 20:20
+14005  Dighwara to  ATNR 08:06 08:15
+14005  ATNR to  BAGL 08:16 08:23
+14005  BAGL to  GJH  08:24 08:44
+Done
+------------------------------------------------------------------------
+Query:  Sitamarhi to  Idgah Agra Junction
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  VGE  to  Amroha
+Departure Time: 00:00
+**Schedule**
+11064  VGE  to  ETP  21:40 21:49
+11064  ETP  to  ATU  21:50 22:09
+12256  ATU  to  Salem Junction 00:40 02:20
+12688  Salem Junction to  Haridwar Junction 07:30 08:25
+12688  Haridwar Junction to  Nagpur 08:30 08:30
+12295  Nagpur to  Danapur 08:30 08:55
+12295  Danapur to  Bangalore Cantonment 08:57 09:10
+12510  Bangalore Cantonment to  New Cooch Behar 11:10 11:30
+13142  New Cooch Behar to  GDX  12:15 12:35
+13142  GDX  to  Falakata 12:36 13:04
+13142  Falakata to  Dhupguri 13:05 13:37
+13142  Dhupguri to  New Maynaguri 13:42 14:01
+13142  New Maynaguri to  Jalpaiguri Road 14:02 14:16
+13142  Jalpaiguri Road to  Raninagar Jalpaiguri 14:17 14:40
+13142  Raninagar Jalpaiguri to  BLK  15:10 15:21
+13142  BLK  to  New Jalpaiguri 15:22 15:45
+12505  New Jalpaiguri to  Kishanganj 17:15 18:21
+12505  Kishanganj to  Ghaziabad 18:23 18:45
+14008  Ghaziabad to  Amroha 17:08 18:53
+Done
+------------------------------------------------------------------------
+Query:  Jhinjhak to  Dhupguri
+Departure Time: 00:00
+**Schedule**
+13112  Jhinjhak to  Barddhaman Junction 04:33 04:45
+13112  Barddhaman Junction to  Rura 04:50 05:26
+12180  Rura to  Kanpur City 09:14 10:15
+12815  Kanpur City to  Khurda Road 10:20 11:55
+12703  Khurda Road to  Balugan 14:40 15:30
+12703  Balugan to  Brahmapur 15:31 16:25
+12703  Brahmapur to  IPM  16:30 16:53
+12703  IPM  to  Palasa 16:54 18:03
+12509  Palasa to  Dhupguri 22:47 22:53
+Done
+------------------------------------------------------------------------
+Query:  Belgaum to  Anuppur Junction
+Departure Time: 00:00
+**Schedule**
+12629  Belgaum to  Bhopal Junction 00:32 00:35
+12616  Bhopal Junction to  Bhopal Habibganj 05:20 05:38
+11057  Bhopal Habibganj to  Jalandhar Cantonment 14:40 14:41
+12549  Jalandhar Cantonment to  Pendra Road 16:10 16:25
+12549  Pendra Road to  Anuppur Junction 16:27 17:15
+Done
+------------------------------------------------------------------------
+Query:  Ren to  Jhinjhak
+Departure Time: 00:00
+**Schedule**
+12468  Ren to  Merta Road Junction 17:56 18:10
+12307  Merta Road Junction to  Koderma 04:42 04:51
+12941  Koderma to  Parasnath Station 07:09 08:17
+12941  Parasnath Station to  Dhanbad Junction 08:19 09:05
+12941  Dhanbad Junction to  Asansol Junction 09:15 10:20
+12369  Asansol Junction to  Madhupur Junction 15:34 16:32
+12327  Madhupur Junction to  Jasidih Junction 16:34 16:58
+12327  Jasidih Junction to  Jhajha 17:00 18:10
+12327  Jhajha to  Kiul Junction 18:15 18:53
+13112  Kiul Junction to  Tundla Junction 22:54 01:35
+13112  Tundla Junction to  Shikohabad Junction 01:45 02:27
+13112  Shikohabad Junction to  Etawah 02:29 03:08
+13112  Etawah to  Jhinjhak 03:10 04:31
+Done
+------------------------------------------------------------------------
+Query:  KYT  to  Chhabra Gugor
+Departure Time: 00:00
+**Schedule**
+13201  KYT  to  Mirzapur 04:58 05:44
+12402  Mirzapur to  Mughal Sarai Junction 06:25 07:40
+12402  Mughal Sarai Junction to  Zamania 07:55 08:30
+12402  Zamania to  Dildarnagar Junction 08:32 08:45
+12402  Dildarnagar Junction to  Buxar 08:47 09:15
+12402  Buxar to  Dumraon 09:17 09:28
+12402  Dumraon to  Bihiya 09:30 09:51
+12402  Bihiya to  Ara 09:53 10:10
+13237  Ara to  Kota Junction 12:40 12:55
+12182  Kota Junction to  Antah 21:25 21:42
+12182  Antah to  Baran 21:44 22:00
+12182  Baran to  Chhabra Gugor 22:02 23:00
+Done
+------------------------------------------------------------------------
+Query:  Giddarbaha to  Singrauli
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Sareigram to  Mandasor
+Departure Time: 00:00
+**Schedule**
+11652  Sareigram to  NWB  06:00 06:26
+11652  NWB  to  MWJ  06:27 06:45
+11652  MWJ  to  Beohari 06:46 07:27
+11652  Beohari to  Bijaysota 07:29 08:00
+11652  Bijaysota to  KHBJ 08:01 08:29
+11652  KHBJ to  NKJ  08:31 09:29
+11652  NKJ  to  KTES 09:30 09:59
+11652  KTES to  Sihora Road 10:00 10:44
+11652  Sihora Road to  Jabalpur 10:45 11:40
+12361  Jabalpur to  Itarsi Junction 13:45 17:55
+12944  Itarsi Junction to  Khandwa 18:20 21:00
+12104  Khandwa to  Bhusaval Junction 21:05 22:45
+12104  Bhusaval Junction to  Manmad Junction 22:55 01:10
+12729  Manmad Junction to  Aurangabad 03:35 05:18
+12729  Aurangabad to  Jalna 05:20 06:13
+12729  Jalna to  Partur 06:15 06:53
+12729  Partur to  Selu 06:55 07:13
+12729  Selu to  Parbhani Junction 07:15 08:13
+12729  Parbhani Junction to  Purna Junction 08:15 08:53
+12729  Purna Junction to  Nanded 08:55 10:00
+12766  Nanded to  Mudkhed 12:30 13:00
+12766  Mudkhed to  Nizamabad 13:02 14:30
+12719  Nizamabad to  Nimach 21:40 21:53
+12719  Nimach to  Mandasor 22:02 22:41
+Done
+------------------------------------------------------------------------
+Query:  Kasaragod to  Patharia
+Departure Time: 00:00
+**Schedule**
+12618  Kasaragod to  Kanhangad 03:20 03:48
+12618  Kanhangad to  Nileshwar 03:50 03:58
+12618  Nileshwar to  Payyanur 04:00 04:18
+12618  Payyanur to  Manmad Junction 04:20 04:22
+13201  Manmad Junction to  KYT  04:55 04:57
+13201  KYT  to  Mirzapur 04:58 05:44
+12815  Mirzapur to  Allahabad Junction 06:28 07:35
+11034  Allahabad Junction to  Pune Junction 07:48 08:05
+12782  Pune Junction to  Gwalior 09:30 10:56
+12646  Gwalior to  Jhansi Junction 11:01 12:35
+12646  Jhansi Junction to  Bina Junction 12:45 15:00
+11071  Bina Junction to  Khurai 05:35 06:00
+11071  Khurai to  Patharia 06:02 07:31
+Done
+------------------------------------------------------------------------
+Query:  Rukadi to  Sirathu
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Parbati to  Santalpur
+Departure Time: 00:00
+**Schedule**
+11463  Parbati to  Bhopal Bairagarh 06:18 08:08
+11704  Bhopal Bairagarh to  Vidisha 09:40 10:49
+11016  Vidisha to  Bhopal Junction 10:54 12:00
+11016  Bhopal Junction to  Bhopal Habibganj 12:05 12:15
+11057  Bhopal Habibganj to  Jalandhar Cantonment 14:40 14:41
+12476  Jalandhar Cantonment to  Ludhiana Junction 14:50 15:40
+12483  Ludhiana Junction to  Mangalore Junction 20:20 20:30
+12978  Mangalore Junction to  Vadodara Junction 20:50 21:30
+11454  Vadodara Junction to  Ahmedabad Junction 01:45 03:45
+12959  Ahmedabad Junction to  Mahesana Junction 08:25 09:46
+12959  Mahesana Junction to  Palanpur Junction 09:48 10:48
+12959  Palanpur Junction to  Disa 10:50 11:35
+12959  Disa to  Bhildi 11:37 11:53
+12959  Bhildi to  Diyodar 11:55 12:14
+12959  Diyodar to  Radhanpur 12:16 12:52
+12959  Radhanpur to  Santalpur 12:54 13:22
+Done
+------------------------------------------------------------------------
+Query:  Adilabad to  Ahraura Road
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Ramganj Mandi to  Elamanchili
+Departure Time: 00:00
+**Schedule**
+12968  Ramganj Mandi to  Bhawani Mandi 00:02 00:21
+12968  Bhawani Mandi to  Vikramgarh Alot 00:23 01:27
+12968  Vikramgarh Alot to  Vijayawada Junction 01:29 02:10
+12296  Vijayawada Junction to  Katni 06:25 06:25
+11449  Katni to  Jalandhar Cantonment 07:30 08:00
+13049  Jalandhar Cantonment to  Jalandhar City 08:15 08:20
+12357  Jalandhar City to  Dhanbad Junction 15:43 15:57
+11448  Dhanbad Junction to  KTH  19:08 19:36
+13351  KTH  to  Elamanchili 11:20 11:31
+Done
+------------------------------------------------------------------------
+Query:  Sakri Junction to  Aluabari Road
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Muniguda to  Gangapur City
+Departure Time: 00:00
+**Schedule**
+12843  Muniguda to  Kesinga 03:52 04:59
+12843  Kesinga to  Titlagarh 05:00 05:20
+12843  Titlagarh to  Vadodara Junction 05:30 05:30
+12994  Vadodara Junction to  KBJ  05:35 06:06
+12994  KBJ  to  KRAR 06:16 07:06
+12843  KRAR to  Ahmedabad Junction 07:07 07:25
+12994  Ahmedabad Junction to  Dhrangadhra 07:45 09:50
+12938  Dhrangadhra to  Kanpur City 13:06 14:00
+12307  Kanpur City to  Bharatpur Junction 15:00 21:00
+12963  Bharatpur Junction to  Bayana Junction 21:37 22:05
+12963  Bayana Junction to  Hindaun City 22:07 22:30
+12963  Hindaun City to  Shri Mahabirji 22:32 22:41
+12963  Shri Mahabirji to  Gangapur City 22:43 23:08
+Done
+------------------------------------------------------------------------
+Query:  Gulbarga to  Muzaffarpur Junction
+Departure Time: 00:00
+**Schedule**
+11042  Gulbarga to  Solapur Junction 02:35 04:30
+11042  Solapur Junction to  Daund Junction 04:40 08:00
+11042  Daund Junction to  Pune Junction 08:05 09:30
+12782  Pune Junction to  Gwalior 09:30 10:56
+12646  Gwalior to  Jhansi Junction 11:01 12:35
+12646  Jhansi Junction to  Bina Junction 12:45 15:00
+13025  Bina Junction to  Dhanbad Junction 16:15 17:15
+12379  Dhanbad Junction to  Beas 17:15 18:48
+12203  Beas to  Hajipur Junction 20:05 20:06
+11061  Hajipur Junction to  Muzaffarpur Junction 21:10 22:30
+Done
+------------------------------------------------------------------------
+Query:  KKLR to  Nagbhir Junction
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Kolkata Terminal to  Mansa
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Srikakulam Road to  Harpalganj
+Departure Time: 00:00
+**Schedule**
+12507  Srikakulam Road to  Dhupguri 01:10 01:10
+12507  Dhupguri to  Tiruppur 01:12 02:08
+12507  Tiruppur to  New Cooch Behar 02:10 02:12
+12507  New Cooch Behar to  Erode Junction 02:14 03:00
+12659  Erode Junction to  Brahmapur 03:15 03:17
+12659  Brahmapur to  Salem Junction 03:22 04:05
+12688  Salem Junction to  Haridwar Junction 07:30 08:25
+12688  Haridwar Junction to  Nagpur 08:30 08:30
+12295  Nagpur to  Danapur 08:30 08:55
+12391  Danapur to  Bihta 11:14 11:26
+12391  Bihta to  Dumraon 11:27 12:21
+12391  Dumraon to  Buxar 12:22 12:38
+12391  Buxar to  Dildarnagar Junction 12:40 13:08
+12391  Dildarnagar Junction to  Mughal Sarai Junction 13:10 14:17
+12391  Mughal Sarai Junction to  Varanasi Junction 14:27 15:02
+12391  Varanasi Junction to  Jaunpur City 15:12 16:04
+12391  Jaunpur City to  Sultanpur 16:05 17:08
+13414  Sultanpur to  KEPR 11:25 12:09
+13414  KEPR to  Harpalganj 12:11 12:19
+Done
+------------------------------------------------------------------------
+Query:  Mau Ranipur to  TLHD
+Departure Time: 00:00
+**Schedule**
+12448  Mau Ranipur to  Harpalpur 03:29 03:51
+11108  Harpalpur to  Nivari 04:26 05:43
+11108  Nivari to  Barwa Sagar 05:45 05:56
+11108  Barwa Sagar to  Gwalior 05:58 08:55
+12646  Gwalior to  Jhansi Junction 11:01 12:35
+12782  Jhansi Junction to  Karad 12:45 13:06
+12782  Karad to  Sangli 13:08 14:15
+12148  Sangli to  Miraj Junction 14:18 14:37
+11039  Miraj Junction to  Khandwa 16:40 16:40
+11016  Khandwa to  Nepanagar 17:20 17:53
+11016  Nepanagar to  Burhanpur 17:55 18:18
+11016  Burhanpur to  Raver 18:20 18:36
+11016  Raver to  Bhusaval Junction 18:38 19:10
+11016  Bhusaval Junction to  KLD  19:20 19:36
+11016  KLD  to  Jalgaon Junction 19:38 19:43
+12994  Jalgaon Junction to  Dhenkanal 21:25 22:08
+12994  Dhenkanal to  TLHD 22:09 22:51
+Done
+------------------------------------------------------------------------
+Query:  Ghatkopar to  KWO 
+Departure Time: 00:00
+**Schedule**
+12767  Ghatkopar to  Durg 03:13 05:10
+12767  Durg to  Raipur Junction 05:15 05:50
+12549  Raipur Junction to  Ambala Cantonment 12:40 12:55
+12317  Ambala Cantonment to  Jhajha 13:00 13:12
+12317  Jhajha to  Kiul Junction 13:17 13:54
+12367  Kiul Junction to  Luckeesarai Junction 14:17 14:24
+12367  Luckeesarai Junction to  Barhiya 14:25 14:39
+12367  Barhiya to  Hathidah Junction 14:40 14:50
+12367  Hathidah Junction to  Barh 14:51 15:22
+12367  Barh to  Bakhtiyarpur Junction 15:23 15:39
+13233  Bakhtiyarpur Junction to  KWO  16:18 16:27
+Done
+------------------------------------------------------------------------
+Query:  Mohol to  GRO 
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Jasidih Junction to  PMBAKVL_SHANDY
+Departure Time: 00:00
+**Schedule**
+13112  Jasidih Junction to  Hathras Junction 00:35 00:44
+13112  Hathras Junction to  Madhupur Junction 00:49 01:00
+12332  Madhupur Junction to  Saharanpur 06:49 06:50
+12688  Saharanpur to  Balharshah 10:50 11:50
+12688  Balharshah to  Meerut City 12:00 12:17
+12688  Meerut City to  Madurai Junction 12:20 12:45
+12667  Madurai Junction to  Virudunagar Junction 03:25 04:10
+12661  Virudunagar Junction to  Tiruttangal 05:17 05:37
+12661  Tiruttangal to  Sivakasi 05:38 05:44
+12661  Sivakasi to  Rajapalayam 05:45 06:14
+12661  Rajapalayam to  Sankarankovil 06:15 06:39
+12661  Sankarankovil to  PMBAKVL_SHANDY 06:40 06:53
+Done
+------------------------------------------------------------------------
+Query:  Kota Junction to  Gondal
+Departure Time: 00:00
+**Schedule**
+12979  Kota Junction to  Sawai Madhopur 06:30 08:20
+12315  Sawai Madhopur to  Asansol Junction 15:10 16:00
+13025  Asansol Junction to  Bina Junction 16:05 16:10
+11466  Bina Junction to  KSD  16:15 16:26
+11087  KSD  to  Junagadh Junction 08:35 09:19
+11087  Junagadh Junction to  Navagadh 09:21 09:57
+11087  Navagadh to  Gondal 09:59 10:26
+Done
+------------------------------------------------------------------------
+Query:  Amritsar Junction to  Mandi Bamora
+Departure Time: 00:00
+**Schedule**
+12242  Amritsar Junction to  Beas 05:15 05:43
+12242  Beas to  Jalandhar City 05:45 06:19
+12242  Jalandhar City to  Ludhiana Junction 06:22 07:10
+13049  Ludhiana Junction to  Mughal Sarai Junction 07:13 07:17
+13049  Mughal Sarai Junction to  KEI  07:37 08:07
+13049  KEI  to  Jalandhar Cantonment 08:08 08:13
+12587  Jalandhar Cantonment to  Chakki Bank 08:30 10:10
+11449  Chakki Bank to  KTHU 10:35 11:19
+11449  KTHU to  Khurai 11:21 11:25
+11449  Khurai to  Bina Junction 11:27 12:15
+12198  Bina Junction to  Ganj Basoda 13:00 13:32
+12185  Ganj Basoda to  Mandi Bamora 23:24 23:43
+Done
+------------------------------------------------------------------------
+Query:  Forbesganj to  Lonavala
+Departure Time: 00:00
+**Schedule**
+12487  Forbesganj to  ANVT 20:31 20:50
+12558  ANVT to  Moradabad 14:50 17:30
+13307  Moradabad to  Tetulmari 21:05 21:31
+13307  Tetulmari to  KNT  21:32 21:34
+13307  KNT  to  Gomoh Junction 21:35 21:50
+13307  Gomoh Junction to  Nagina 21:55 22:26
+13307  Nagina to  Hazaribagh Road 22:27 22:38
+12312  Hazaribagh Road to  Ambala Cantonment 01:25 02:00
+12450  Ambala Cantonment to  BSR  03:00 03:33
+11049  BSR  to  Bhiwandi Road 04:15 04:33
+11049  Bhiwandi Road to  Kalyan 04:35 05:15
+11049  Kalyan to  KJT  05:20 06:03
+11049  KJT  to  Lonavala 06:05 06:53
+Done
+------------------------------------------------------------------------
+Query:  Pernem to  Chandauli Mjhwr
+Departure Time: 00:00
+**Schedule**
+10111  Pernem to  Thivim 10:28 10:40
+12978  Thivim to  Kota Junction 13:28 13:35
+13423  Kota Junction to  Patna Junction 16:35 18:10
+13423  Patna Junction to  Chanderiya 18:20 20:25
+13423  Chanderiya to  Bhilwara 20:55 21:30
+13423  Bhilwara to  Bijainagar 21:35 22:28
+13423  Bijainagar to  Mughal Sarai Junction 22:29 22:59
+12322  Mughal Sarai Junction to  Igatpuri 00:12 00:15
+12322  Igatpuri to  Nasik Road 00:20 01:10
+11093  Nasik Road to  KEI  04:00 04:18
+13010  KEI  to  Chandauli Mjhwr 16:26 17:46
+Done
+------------------------------------------------------------------------
+Query:  Tilda to  Falna
+Departure Time: 00:00
+**Schedule**
+12854  Tilda to  Raipur Junction 06:20 07:00
+12549  Raipur Junction to  Ambala Cantonment 12:40 12:55
+12325  Ambala Cantonment to  Sirhind Junction 13:00 13:42
+12925  Sirhind Junction to  Chandigarh 15:44 15:57
+12925  Chandigarh to  Bharuch Junction 16:12 16:31
+12989  Bharuch Junction to  Vadodara Junction 19:21 20:20
+12989  Vadodara Junction to  Anand Junction 20:25 20:55
+12989  Anand Junction to  Nadiad Junction 20:57 21:12
+12989  Nadiad Junction to  Ahmedabad Junction 21:14 22:10
+12490  Ahmedabad Junction to  Palanpur Junction 22:30 01:28
+12989  Palanpur Junction to  Sirohi Road 01:30 03:32
+12989  Sirohi Road to  Jawai Bandh 03:34 04:02
+12989  Jawai Bandh to  Falna 04:04 04:21
+Done
+------------------------------------------------------------------------
+Query:  New Mal Junction to  Birsinghpur
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  KBN  to  KBJ 
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Hole Alur to  Bhojudih Junction
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Jolarpettai to  Idgah Agra Junction
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Parvatipuram Town to  Maksi
+Departure Time: 00:00
+**Schedule**
+12843  Parvatipuram Town to  Rayagada 01:57 02:45
+12843  Rayagada to  Surat 02:55 03:37
+12993  Surat to  Sambalpur 08:30 09:20
+12993  Sambalpur to  Nandurbar 09:30 11:30
+12655  Nandurbar to  Gudur Junction 13:20 13:40
+12969  Gudur Junction to  Berchha 19:52 20:05
+11472  Berchha to  Maksi 07:45 08:38
+Done
+------------------------------------------------------------------------
+Query:  WZJ  to  Beawar
+Departure Time: 00:00
+**Schedule**
+13023  WZJ  to  Gaya Junction 09:35 10:40
+12802  Gaya Junction to  Koderma 13:35 14:43
+11046  Koderma to  Ahmednagar 15:27 15:27
+11046  Ahmednagar to  Nagpur 15:30 15:30
+11046  Nagpur to  Sevagram 15:40 16:44
+12791  Sevagram to  Patna Junction 18:00 19:10
+12327  Patna Junction to  Buxar 21:10 22:35
+12948  Buxar to  Vadodara Junction 01:16 02:20
+12971  Vadodara Junction to  Anand Junction 03:30 04:02
+12479  Anand Junction to  Luni Junction 04:55 19:11
+12479  Luni Junction to  Pali Marwar 19:15 19:43
+12479  Pali Marwar to  Marwar Junction 19:45 20:30
+12479  Marwar Junction to  Rani 20:32 21:08
+12479  Rani to  Falna 21:10 21:22
+12915  Falna to  Beawar 23:30 01:15
+Done
+------------------------------------------------------------------------
+Query:  Zafarabad Junction to  Raigarh
+Departure Time: 00:00
+**Schedule**
+13414  Zafarabad Junction to  Jalalganj 13:15 13:33
+13414  Jalalganj to  Varanasi Junction 13:35 15:00
+13414  Varanasi Junction to  Mughal Sarai Junction 15:15 16:10
+12520  Mughal Sarai Junction to  Mirzapur 17:07 18:09
+12335  Mirzapur to  Kalyan 18:55 19:00
+12810  Kalyan to  Raigarh 04:15 04:51
+Done
+------------------------------------------------------------------------
+Query:  Bhiwani to  Duvvada
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Parvatipuram to  Bankura
+Departure Time: 00:00
+**Schedule**
+12808  Parvatipuram to  Lalitpur 15:47 15:47
+12808  Lalitpur to  Bobbili 15:49 16:08
+12808  Bobbili to  Vizianagaram 16:10 17:05
+12808  Vizianagaram to  Bina Junction 17:10 17:10
+12808  Bina Junction to  Simhachalam 17:15 17:50
+12808  Simhachalam to  Visakhapatnam Junction 17:52 18:30
+12509  Visakhapatnam Junction to  Srikakulam Road 19:45 21:35
+12843  Srikakulam Road to  Nandurbar 23:17 00:10
+11453  Nandurbar to  Bhusaval Junction 00:15 04:10
+12949  Bhusaval Junction to  Bankura 03:20 03:43
+Done
+------------------------------------------------------------------------
+Query:  Bharatpur Junction to  Yesvantpur Junction
+Departure Time: 00:00
+**Schedule**
+12415  Bharatpur Junction to  Mathura Junction 02:42 03:35
+12409  Mathura Junction to  BYT  05:03 06:34
+12409  BYT  to  Tilda 06:35 06:54
+12409  Tilda to  Raipur Junction 06:55 07:35
+12843  Raipur Junction to  Durg 09:55 10:40
+12906  Durg to  Raj Nandgaon 12:25 12:46
+12252  Raj Nandgaon to  Yesvantpur Junction 13:18 13:30
+Done
+------------------------------------------------------------------------
+Query:  NBG  to  Dharmavaram Junction
+Departure Time: 00:00
+**Schedule**
+13348  NBG  to  Japla 02:43 02:56
+13348  Japla to  URD  02:57 03:28
+13348  URD  to  Garwa Road 03:29 04:50
+13348  Garwa Road to  Latehar 05:00 07:02
+13348  Latehar to  McCluskieganj 07:03 08:11
+13348  McCluskieganj to  Barkakana 08:12 10:10
+12874  Barkakana to  Ramgarh Cantonment 17:00 17:11
+12874  Ramgarh Cantonment to  Muri 17:13 18:08
+13425  Muri to  Amalner 22:42 23:28
+13425  Amalner to  Ranchi 23:30 23:55
+13425  Ranchi to  Nandurbar 00:10 01:18
+12950  Nandurbar to  Chakradharpur 03:45 04:30
+12152  Chakradharpur to  Igatpuri 04:35 04:39
+12152  Igatpuri to  Kalyan 04:40 06:25
+12146  Kalyan to  Balangir 06:30 06:53
+12993  Balangir to  Surat 07:37 08:15
+12934  Surat to  Valsad 08:40 09:30
+12934  Valsad to  Vapi 09:32 09:51
+12471  Vapi to  Jalandhar Cantonment 10:25 10:40
+11057  Jalandhar Cantonment to  Bhopal Junction 14:43 15:05
+12648  Bhopal Junction to  Anantapur 19:05 19:38
+12648  Anantapur to  Dharmavaram Junction 19:40 20:50
+Done
+------------------------------------------------------------------------
+Query:  PAW  to  Jogbani
+Departure Time: 00:00
+**Schedule**
+13052  PAW  to  UKA  14:07 14:27
+13052  UKA  to  Durgapur 14:28 15:09
+12379  Durgapur to  Ludhiana Junction 15:31 16:55
+13006  Ludhiana Junction to  Patna Junction 21:05 21:40
+12488  Patna Junction to  Begu Sarai 23:35 02:17
+12488  Begu Sarai to  KGG  02:19 03:08
+12488  KGG  to  Naugachia 03:10 04:14
+12488  Naugachia to  Katihar 04:16 05:20
+12488  Katihar to  Purnia Junction 05:35 06:26
+13159  Purnia Junction to  Forbesganj 09:27 10:21
+13159  Forbesganj to  Jogbani 10:22 11:15
+Done
+------------------------------------------------------------------------
+Query:  Akalkot Road to  Guntakal Junction
+Departure Time: 00:00
+**Schedule**
+11302  Akalkot Road to  Solapur Junction 10:10 11:10
+11302  Solapur Junction to  Kurduvadi 11:20 12:24
+11302  Kurduvadi to  Daund Junction 12:25 14:20
+11302  Daund Junction to  Pune Junction 14:25 15:50
+11302  Pune Junction to  Lonavala 15:55 17:04
+11302  Lonavala to  Kalyan 17:05 18:39
+12335  Kalyan to  Thane 19:05 19:24
+12809  Thane to  Jharsuguda Junction 21:15 21:35
+12376  Jharsuguda Junction to  Chennai Central 22:40 22:45
+12512  Chennai Central to  Bhopal Junction 23:25 00:05
+12512  Bhopal Junction to  Nellore 00:10 02:02
+12968  Nellore to  Shujalpur 05:21 05:22
+11704  Shujalpur to  Sehore 07:59 08:33
+12975  Sehore to  Guntakal Junction 18:58 19:15
+Done
+------------------------------------------------------------------------
+Query:  Nangloi to  Talguppa
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  UR   to  Daniyawan Bzr H
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Jukehi to  Bhabua Road
+Departure Time: 00:00
+**Schedule**
+13201  Jukehi to  Sihora Road 13:20 14:29
+13201  Sihora Road to  Narsinghpur 14:30 16:34
+13201  Narsinghpur to  KY   16:36 16:52
+13201  KY   to  BKH  16:53 17:42
+13201  BKH  to  Pipariya 17:43 17:58
+12321  Pipariya to  Itarsi Junction 20:32 22:15
+12522  Itarsi Junction to  Barauni Junction 22:20 22:50
+13105  Barauni Junction to  Mehnar Road 23:55 01:04
+13105  Mehnar Road to  Desari 01:05 01:18
+13105  Desari to  Hajipur Junction 01:19 02:16
+11033  Hajipur Junction to  Khandwa 02:45 02:45
+11078  Khandwa to  Sirhind Junction 03:25 04:15
+13307  Sirhind Junction to  KEI  04:57 04:58
+13010  KEI  to  Chandauli Mjhwr 16:26 17:46
+13010  Chandauli Mjhwr to  Saidraja 17:48 17:55
+13010  Saidraja to  Bhabua Road 17:57 18:29
+Done
+------------------------------------------------------------------------
+Query:  Bharuch Junction to  Bakhtiyarpur Junction
+Departure Time: 00:00
+**Schedule**
+11454  Bharuch Junction to  Vadodara Junction 00:36 01:40
+12948  Vadodara Junction to  Nadiad Junction 02:50 03:42
+12942  Nadiad Junction to  Allahabad Junction 03:43 05:30
+11039  Allahabad Junction to  Bhusaval Junction 08:35 08:40
+12335  Bhusaval Junction to  Barh 12:00 12:27
+12335  Barh to  Bakhtiyarpur Junction 12:28 12:52
+Done
+------------------------------------------------------------------------
+Query:  Jasidih Junction to  Surendranagar
+Departure Time: 00:00
+**Schedule**
+13112  Jasidih Junction to  Hathras Junction 00:35 00:44
+13413  Hathras Junction to  Aligarh Junction 01:20 01:41
+13413  Aligarh Junction to  Kiul Junction 01:46 02:15
+13413  Kiul Junction to  Barhiya 02:25 02:42
+13413  Barhiya to  Barh 02:43 03:35
+13413  Barh to  Ghaziabad 03:36 03:40
+13413  Ghaziabad to  Sahibabad 03:42 03:52
+13413  Sahibabad to  Bakhtiyarpur Junction 03:53 03:55
+12351  Bakhtiyarpur Junction to  Patna Saheb 04:55 05:43
+12351  Patna Saheb to  Rajendar Nagar Bihar 05:44 05:56
+13287  Rajendar Nagar Bihar to  Bhilai Power House 06:56 07:35
+12856  Bhilai Power House to  Raipur Junction 11:00 11:30
+12549  Raipur Junction to  Ambala Cantonment 12:40 12:55
+12357  Ambala Cantonment to  Ludhiana Junction 13:00 14:30
+12476  Ludhiana Junction to  Surendranagar 15:50 16:57
+Done
+------------------------------------------------------------------------
+Query:  Jalamb Junction to  Alamnagar
+Departure Time: 00:00
+**Schedule**
+12810  Jalamb Junction to  Nandura 19:40 19:49
+12810  Nandura to  Malkapur 19:50 20:09
+12810  Malkapur to  Bhusaval Junction 20:10 21:10
+12810  Bhusaval Junction to  Jalgaon Junction 21:20 21:44
+12810  Jalgaon Junction to  Kharagpur Junction 21:45 21:55
+12810  Kharagpur Junction to  Chalisgaon Junction 22:00 22:44
+12810  Chalisgaon Junction to  Manmad Junction 22:45 23:42
+12810  Manmad Junction to  Tatanagar Junction 23:45 23:47
+12810  Tatanagar Junction to  Rourkela 23:52 02:12
+12810  Rourkela to  Jharsuguda Junction 02:27 03:55
+12810  Jharsuguda Junction to  Brajarajnagar 04:00 04:09
+12810  Brajarajnagar to  Kalyan 04:10 04:10
+12174  Kalyan to  Thane 05:00 05:18
+12174  Thane to  Charbagh Railway Station 05:20 05:40
+13049  Charbagh Railway Station to  Khana Junction 16:10 16:30
+13049  Khana Junction to  Alamnagar 16:31 16:34
+Done
+------------------------------------------------------------------------
+Query:  Bilwai to  Sakaldiha
+Departure Time: 00:00
+**Schedule**
+13307  Bilwai to  Goshainganj 08:17 09:15
+13484  Goshainganj to  Akbarpur 11:19 11:37
+13484  Akbarpur to  Shahganj Junction 11:39 12:20
+13484  Shahganj Junction to  Jaunpur Junction 12:25 13:05
+13484  Jaunpur Junction to  Zafarabad Junction 13:07 13:23
+13484  Zafarabad Junction to  Jalalganj 13:25 13:44
+13484  Jalalganj to  Varanasi Junction 13:46 15:00
+13414  Varanasi Junction to  Mughal Sarai Junction 15:15 16:10
+13414  Mughal Sarai Junction to  Zamania 16:25 17:01
+13049  Zamania to  Govindgarh 05:42 05:48
+13049  Govindgarh to  Sakaldiha 05:49 06:08
+Done
+------------------------------------------------------------------------
+Query:  Nandura to  SRC 
+Departure Time: 00:00
+**Schedule**
+12656  Nandura to  Malkapur 06:10 06:29
+11454  Malkapur to  Bhusaval Junction 14:40 15:45
+11454  Bhusaval Junction to  Jalgaon Junction 16:00 16:50
+12810  Jalgaon Junction to  Kharagpur Junction 21:45 21:55
+12666  Kharagpur Junction to  Nellore 01:00 01:42
+12840  Nellore to  SRC  02:18 03:22
+Done
+------------------------------------------------------------------------
+Query:  Moth to  Disa
+Departure Time: 00:00
+**Schedule**
+11110  Moth to  Chirgaon 21:24 21:43
+11110  Chirgaon to  Jhansi Junction 21:45 22:35
+12405  Jhansi Junction to  Mathura Junction 00:41 05:01
+12409  Mathura Junction to  BYT  05:03 06:34
+12409  BYT  to  Tilda 06:35 06:54
+12409  Tilda to  Raipur Junction 06:55 07:35
+12843  Raipur Junction to  Durg 09:55 10:40
+12994  Durg to  Samakhiali B G 10:45 11:44
+12994  Samakhiali B G to  Bhachau BG 11:46 12:03
+12960  Bhachau BG to  Santalpur 20:23 22:04
+12960  Santalpur to  Radhanpur 22:06 22:38
+12960  Radhanpur to  Bhildi 22:40 23:37
+12960  Bhildi to  Disa 23:39 23:53
+Done
+------------------------------------------------------------------------
+Query:  Harnaut to  NAT 
+Departure Time: 00:00
+**Schedule**
+13234  Harnaut to  KOO  10:57 10:07
+12335  KOO  to  Fatwa 13:10 13:19
+12335  Fatwa to  Patna Saheb 13:20 13:30
+12335  Patna Saheb to  Patna Junction 13:31 13:50
+12350  Patna Junction to  Mokameh Junction 15:10 16:24
+12350  Mokameh Junction to  Jamalpur Junction 16:26 18:38
+13402  Jamalpur Junction to  AKN  21:07 22:04
+13402  AKN  to  NAT  22:05 22:16
+Done
+------------------------------------------------------------------------
+Query:  Vishvamitri to  Sohwal
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  KWO  to  SHM 
+Departure Time: 00:00
+**Schedule**
+13233  KWO  to  KOO  16:28 16:36
+13233  KOO  to  Fatwa 16:37 16:46
+13112  Fatwa to  Bakhtiyarpur Junction 20:17 20:41
+13112  Bakhtiyarpur Junction to  Barh 20:43 21:00
+13112  Barh to  Ghaziabad 21:02 21:33
+13112  Ghaziabad to  Mokameh Junction 21:35 22:03
+13112  Mokameh Junction to  Barhiya 22:08 22:22
+13112  Barhiya to  Luckeesarai Junction 22:24 22:37
+13112  Luckeesarai Junction to  Kiul Junction 22:39 22:49
+13414  Kiul Junction to  Aligarh Junction 00:10 00:30
+12876  Aligarh Junction to  Ghatsila 08:16 08:16
+12876  Ghatsila to  Mandrak 08:18 08:37
+12876  Mandrak to  Kharagpur Junction 08:39 09:35
+12659  Kharagpur Junction to  SHM  11:40 13:50
+Done
+------------------------------------------------------------------------
+Query:  Virudunagar Junction to  Khairthal
+Departure Time: 00:00
+**Schedule**
+12667  Virudunagar Junction to  Satur 04:12 04:34
+12667  Satur to  Tirunelveli Junction 04:35 06:25
+12667  Tirunelveli Junction to  Nagercoil Junction 06:30 08:05
+12665  Nagercoil Junction to  Ongole 11:05 14:08
+12376  Ongole to  Nellore 17:41 18:56
+12969  Nellore to  Ujjain Junction 20:18 21:25
+12969  Ujjain Junction to  Nagda Junction 21:35 22:45
+12969  Nagda Junction to  Vikramgarh Alot 23:10 23:37
+12969  Vikramgarh Alot to  Vijayawada Junction 23:38 00:10
+12969  Vijayawada Junction to  Bhawani Mandi 00:20 00:39
+12969  Bhawani Mandi to  Ramganj Mandi 00:40 00:59
+12969  Ramganj Mandi to  Warangal 01:00 03:15
+12969  Warangal to  Jaipur 03:17 06:15
+12413  Jaipur to  Gandhinagar JPR 16:30 16:38
+12413  Gandhinagar JPR to  Dausa 16:40 17:19
+12413  Dausa to  Bandikui Junction 17:21 17:44
+12413  Bandikui Junction to  Alwar 17:46 18:39
+12413  Alwar to  Khairthal 18:43 18:59
+Done
+------------------------------------------------------------------------
+Query:  ODG  to  Vyara
+Departure Time: 00:00
+**Schedule**
+11057  ODG  to  Goraya 14:05 14:12
+11057  Goraya to  Mandi Dip 14:14 14:19
+11057  Mandi Dip to  Phagwara Junction 14:21 14:25
+11057  Phagwara Junction to  Bhopal Habibganj 14:27 14:38
+11057  Bhopal Habibganj to  Jalandhar Cantonment 14:40 14:41
+11057  Jalandhar Cantonment to  Bhopal Junction 14:43 15:05
+12969  Bhopal Junction to  Bhopal Bairagarh 18:05 18:31
+12969  Bhopal Bairagarh to  Sehore 18:32 18:57
+12969  Sehore to  Shujalpur 18:58 19:32
+12969  Shujalpur to  Gudur Junction 19:33 19:50
+12969  Gudur Junction to  Berchha 19:52 20:05
+12969  Berchha to  Nellore 20:06 20:17
+12759  Nellore to  KVZ  21:11 21:48
+12655  KVZ  to  Vyara 11:52 11:33
+Done
+------------------------------------------------------------------------
+Query:  Aurangabad to  Adilabad
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Koduru to  Moradabad
+Departure Time: 00:00
+**Schedule**
+12797  Koduru to  Renigunta Junction 06:10 07:08
+12797  Renigunta Junction to  Tirupati 07:10 07:30
+12659  Tirupati to  Balasore 09:35 09:45
+12703  Balasore to  Bhadrakh 10:37 11:35
+12703  Bhadrakh to  Jajpur Kheonjhar Road 11:37 12:05
+12876  Jajpur Kheonjhar Road to  Charbagh Railway Station 13:24 14:05
+13307  Charbagh Railway Station to  Hardoi 14:50 16:31
+13307  Hardoi to  Shahjehanpur 16:32 17:42
+13307  Shahjehanpur to  Pitambarpur 17:47 18:31
+13307  Pitambarpur to  Moradabad 18:32 20:55
+Done
+------------------------------------------------------------------------
+Query:  Tohana to  BPO 
+Departure Time: 00:00
+**Schedule**
+12137  Tohana to  Budhlada 00:59 01:46
+12137  Budhlada to  Bhusaval Junction 01:48 02:40
+12151  Bhusaval Junction to  Akola Junction 03:20 05:05
+12949  Akola Junction to  Midnapore 05:10 05:18
+12949  Midnapore to  Kharagpur Junction 05:20 06:03
+12876  Kharagpur Junction to  Etawah 10:00 10:34
+12876  Etawah to  Jaleswar 10:36 10:58
+12876  Jaleswar to  Balasore 11:00 11:42
+12892  Balasore to  HIP  20:17 20:28
+12892  HIP  to  Rupsa Junction 20:29 20:38
+12892  Rupsa Junction to  TKH  20:40 20:49
+12892  TKH  to  JRG  20:50 20:58
+12892  JRG  to  BTQ  20:59 21:19
+12892  BTQ  to  KCV  21:20 21:34
+12892  KCV  to  BPO  21:35 21:57
+Done
+------------------------------------------------------------------------
+Query:  BTJL to  Murtajapur
+Departure Time: 00:00
+**Schedule**
+12978  BTJL to  Kundapura 17:36 18:26
+12978  Kundapura to  Udupi 18:28 19:02
+12978  Udupi to  Mangalore Junction 19:04 20:40
+12978  Mangalore Junction to  Vadodara Junction 20:50 21:30
+12833  Vadodara Junction to  Raj Gangpur 01:55 05:57
+12833  Raj Gangpur to  Murtajapur 05:59 13:58
+Done
+------------------------------------------------------------------------
+Query:  Mihrawan to  Muhammadabad
+Departure Time: 00:00
+**Schedule**
+13307  Mihrawan to  Lohian Khas Junction 07:13 08:05
+13307  Lohian Khas Junction to  Bilwai 08:07 08:16
+13307  Bilwai to  Goshainganj 08:17 09:15
+13484  Goshainganj to  Akbarpur 11:19 11:37
+13484  Akbarpur to  Shahganj Junction 11:39 12:20
+11055  Shahganj Junction to  KRND 14:55 15:16
+11055  KRND to  Sarai Mir 15:18 15:29
+11055  Sarai Mir to  Azamgarh 15:31 16:00
+11055  Azamgarh to  Muhammadabad 16:05 16:23
+Done
+------------------------------------------------------------------------
+Query:  RMJK to  Ghaziabad
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  DRH  to  Ajni
+Departure Time: 00:00
+**Schedule**
+13401  DRH  to  MSDN 07:08 07:17
+13401  MSDN to  Kiul Junction 07:18 08:23
+13401  Kiul Junction to  Luckeesarai Junction 08:25 08:32
+13401  Luckeesarai Junction to  Barhiya 08:33 08:47
+12335  Barhiya to  Bhusaval Junction 11:33 11:50
+11039  Bhusaval Junction to  Dhamangaon 13:50 13:55
+11039  Dhamangaon to  Burhanpur 13:57 14:38
+11039  Burhanpur to  Wardha Junction 14:40 14:52
+11039  Wardha Junction to  Nepanagar 14:55 14:58
+11039  Nepanagar to  Sevagram 15:00 15:00
+11039  Sevagram to  Mau Junction 15:02 15:05
+11039  Mau Junction to  TGP  15:10 15:20
+11039  TGP  to  Indara Junction 15:22 15:25
+11039  Indara Junction to  Sindi 15:27 15:27
+11039  Sindi to  Valivade 15:29 15:37
+11039  Valivade to  Rukadi 15:39 15:47
+11039  Rukadi to  Hatkanagale 15:49 15:58
+11039  Hatkanagale to  Ajni 16:00 16:03
+Done
+------------------------------------------------------------------------
+Query:  Pirpainti to  Raika Bagh
+Departure Time: 00:00
+**Schedule**
+13134  Pirpainti to  MZC  01:27 01:36
+13134  MZC  to  Sahibganj Junction 01:38 02:03
+13134  Sahibganj Junction to  Tinpahar Junction 02:13 03:03
+13134  Tinpahar Junction to  Pakur 03:05 04:11
+13134  Pakur to  RJG  04:13 04:28
+13134  RJG  to  Nalhati 04:30 05:10
+13134  Nalhati to  MLV  05:12 06:14
+13134  MLV  to  Sainthia 06:16 06:35
+13134  Sainthia to  Prantik 06:37 07:03
+13134  Prantik to  Bolpur 97 Santiniketan 07:05 07:13
+13012  Bolpur 97 Santiniketan to  BDH  08:15 08:22
+13012  BDH  to  Barddhaman Junction 08:23 09:17
+12315  Barddhaman Junction to  Sawai Madhopur 14:41 15:00
+12315  Sawai Madhopur to  Asansol Junction 15:10 16:00
+12319  Asansol Junction to  Dhanbad Junction 16:05 17:10
+12307  Dhanbad Junction to  Merta Road Junction 03:17 04:10
+12465  Merta Road Junction to  Gotan 20:21 20:36
+12465  Gotan to  Raika Bagh 20:38 21:56
+Done
+------------------------------------------------------------------------
+Query:  Chandok to  DLPH
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Rajpura Junction to  Plassey
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  UMD  to  KML 
+Departure Time: 00:00
+**Schedule**
+11406  UMD  to  Kurduvadi 07:55 09:35
+11406  Kurduvadi to  Daund Junction 09:40 11:40
+11078  Daund Junction to  Raja Ki Mandi 13:10 13:24
+12147  Raja Ki Mandi to  Mathura Junction 14:14 14:55
+12645  Mathura Junction to  Hazrat Nizamuddin 15:00 17:05
+12903  Hazrat Nizamuddin to  Ghaziabad 19:05 20:03
+13112  Ghaziabad to  Mokameh Junction 21:35 22:03
+13112  Mokameh Junction to  Barhiya 22:08 22:22
+13112  Barhiya to  Luckeesarai Junction 22:24 22:37
+13112  Luckeesarai Junction to  Kiul Junction 22:39 22:49
+13021  Kiul Junction to  Barauni Junction 00:10 01:38
+13021  Barauni Junction to  Teghra 02:00 02:12
+13021  Teghra to  Bachwara Junction 02:13 02:25
+13021  Bachwara Junction to  Dalsingh Sarai 02:26 02:39
+13021  Dalsingh Sarai to  Samastipur Junction 02:40 03:15
+13185  Samastipur Junction to  Haiaghat 04:05 04:28
+13185  Haiaghat to  Darbhanga Junction 04:29 05:05
+13155  Darbhanga Junction to  KML  09:20 09:52
+Done
+------------------------------------------------------------------------
+Query:  Hazrat Nizamuddin to  NBG 
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
+------------------------------------------------------------------------
+Query:  Labha to  Brahmapur
+Departure Time: 00:00
+**Schedule**
+13247  Labha to  Katihar 17:51 19:00
+12502  Katihar to  New Jalpaiguri 20:50 00:05
+12507  New Jalpaiguri to  Srikakulam Road 00:10 01:08
+12507  Srikakulam Road to  Dhupguri 01:10 01:10
+12507  Dhupguri to  Tiruppur 01:12 02:08
+12507  Tiruppur to  New Cooch Behar 02:10 02:12
+12507  New Cooch Behar to  Erode Junction 02:14 03:00
+12659  Erode Junction to  Brahmapur 03:15 03:17
+Done
+------------------------------------------------------------------------
+Query:  KRG  to  Raninagar Jalpaiguri
+Departure Time: 00:00
+**Schedule**
+11024  KRG  to  Satara 02:08 02:23
+12782  Satara to  Jhansi Junction 12:08 12:35
+12804  Jhansi Junction to  Rajamundry 12:45 13:36
+12254  Rajamundry to  Kiul Junction 15:53 16:10
+13414  Kiul Junction to  Aligarh Junction 00:10 00:30
+12506  Aligarh Junction to  Jalpaiguri Road 08:29 09:15
+13142  Jalpaiguri Road to  Raninagar Jalpaiguri 14:17 14:40
+Done
+------------------------------------------------------------------------
+Query:  TGP  to  KSRA
+Departure Time: 00:00
+**Schedule**
+11039  TGP  to  Indara Junction 15:22 15:25
+11039  Indara Junction to  Sindi 15:27 15:27
+11039  Sindi to  Valivade 15:29 15:37
+11039  Valivade to  Rukadi 15:39 15:47
+11039  Rukadi to  Hatkanagale 15:49 15:58
+11039  Hatkanagale to  Ajni 16:00 16:03
+11039  Ajni to  Jayasingpur 16:05 16:13
+11039  Jayasingpur to  Miraj Junction 16:15 16:35
+11039  Miraj Junction to  Khandwa 16:40 16:40
+11016  Khandwa to  Nepanagar 17:20 17:53
+11016  Nepanagar to  Burhanpur 17:55 18:18
+11016  Burhanpur to  Raver 18:20 18:36
+11016  Raver to  Bhusaval Junction 18:38 19:10
+11016  Bhusaval Junction to  KLD  19:20 19:36
+11016  KLD  to  Jalgaon Junction 19:38 19:43
+12138  Jalgaon Junction to  Maur 00:01 00:02
+12138  Maur to  Mansa 00:04 00:19
+13008  Mansa to  Barnala 00:52 00:58
+13008  Barnala to  Mughal Sarai Junction 01:00 01:05
+12150  Mughal Sarai Junction to  Allahabad Junction 02:52 05:10
+13201  Allahabad Junction to  KSRA 08:25 09:09
+Done
+------------------------------------------------------------------------
+Query:  Khanna to  JRK 
+Departure Time: 00:00
+**Schedule**
+13049  Khanna to  KCA  06:16 06:17
+13049  KCA  to  Ludhiana Junction 06:18 07:03
+13049  Ludhiana Junction to  Mughal Sarai Junction 07:13 07:17
+13049  Mughal Sarai Junction to  KEI  07:37 08:07
+13049  KEI  to  Jalandhar Cantonment 08:08 08:13
+12587  Jalandhar Cantonment to  Chakki Bank 08:30 10:10
+11449  Chakki Bank to  KTHU 10:35 11:19
+11449  KTHU to  Khurai 11:21 11:25
+11449  Khurai to  Bina Junction 11:27 12:15
+11704  Bina Junction to  Saugor 12:55 14:10
+11271  Saugor to  Nariaoli 03:30 03:43
+11271  Nariaoli to  JRK  03:45 03:53
+Done
+------------------------------------------------------------------------
+Query:  Chakulia to  Tadepalligudem
+Departure Time: 00:00
+**Schedule**
+12814  Chakulia to  Jhargram 07:12 07:32
+12814  Jhargram to  SUA  07:33 07:45
+12814  SUA  to  Kharagpur Junction 07:46 08:15
+12814  Kharagpur Junction to  SRC  08:18 09:44
+12814  SRC  to  Howrah Junction 09:45 10:20
+12509  Howrah Junction to  Vijayawada Junction 11:15 13:05
+11019  Vijayawada Junction to  Dadar (Central Railway) 14:20 15:23
+11019  Dadar (Central Railway) to  Tadepalligudem 15:25 15:38
+Done
+------------------------------------------------------------------------
+Query:  Bagaha to  Itarsi Junction
+Departure Time: 00:00
+**Schedule**
+12558  Bagaha to  Harinagar 06:03 06:24
+12558  Harinagar to  Bettiah 06:26 07:29
+12558  Bettiah to  Sagauli Junction 07:31 07:48
+12558  Sagauli Junction to  BAPUDHAM Motihari 07:50 08:17
+12558  BAPUDHAM Motihari to  Chakia 08:22 09:03
+12558  Chakia to  Mehsi 09:05 09:14
+12558  Mehsi to  Motipur 09:16 09:28
+12558  Motipur to  Muzaffarpur Junction 09:30 10:25
+12524  Muzaffarpur Junction to  Samastipur Junction 10:30 11:20
+12524  Samastipur Junction to  Rusera Ghat 11:25 11:43
+12524  Rusera Ghat to  Katihar 11:45 15:15
+12524  Katihar to  Ghaziabad 15:30 15:53
+12524  Ghaziabad to  Kishanganj 15:55 17:06
+12519  Kishanganj to  Itarsi Junction 19:08 19:15
+Done
+------------------------------------------------------------------------
+Query:  URD  to  Chhapra Kacheri
+Departure Time: 00:00
+**Schedule**
+13348  URD  to  Garwa Road 03:29 04:50
+13348  Garwa Road to  Latehar 05:00 07:02
+13348  Latehar to  McCluskieganj 07:03 08:11
+13348  McCluskieganj to  Barkakana 08:12 10:10
+12874  Barkakana to  Ramgarh Cantonment 17:00 17:11
+12874  Ramgarh Cantonment to  Muri 17:13 18:08
+13425  Muri to  Amalner 22:42 23:28
+13425  Amalner to  Ranchi 23:30 23:55
+13425  Ranchi to  Nandurbar 00:10 01:18
+12950  Nandurbar to  Chakradharpur 03:45 04:30
+12152  Chakradharpur to  Igatpuri 04:35 04:39
+12152  Igatpuri to  Kalyan 04:40 06:25
+11025  Kalyan to  Panvel 08:05 09:00
+12618  Panvel to  Faridabad 09:30 09:40
+12618  Faridabad to  Thrissur 09:42 09:52
+12678  Thrissur to  Palakkad Junction 10:20 11:43
+12678  Palakkad Junction to  Coimbatore Junction 11:45 12:45
+12678  Coimbatore Junction to  Tiruppur 12:50 13:33
+12678  Tiruppur to  Erode Junction 13:35 14:25
+12522  Erode Junction to  Siwan Junction 17:15 17:30
+12522  Siwan Junction to  Chhapra 17:35 18:40
+11061  Chhapra to  Burhanpur 19:50 19:58
+11061  Burhanpur to  Dighwara 20:00 20:20
+14005  Dighwara to  ATNR 08:06 08:15
+14005  ATNR to  BAGL 08:16 08:23
+14005  BAGL to  GJH  08:24 08:44
+14005  GJH  to  Chhapra Kacheri 08:45 09:09
+Done
+------------------------------------------------------------------------
+Query:  Jogbani to  BTY 
+Departure Time: 00:00
+**Schedule**
+NO TRAINS AVAILABLE STARTING THE SAME DAY
+Done
