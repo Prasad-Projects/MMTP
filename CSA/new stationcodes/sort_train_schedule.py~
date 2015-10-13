@@ -4,7 +4,7 @@ L = []
 line = []
 for _ in xrange(23001):
 	line = raw_input().split(' ')
-	L.append([(line[0]),(line[1]),(line[2]),(line[3]),(line[4])])
+	L.append([(line[0]),int(line[1]),int(line[2]),int(line[3]),int(line[4])])
 temp = []
 temp = sorted(L,key=itemgetter(3))
 for item in temp:
