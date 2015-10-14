@@ -1,0 +1,63 @@
+kartik@kartik:~/Testing/Extension$ python CSA_v3.py 246 785
+------------------------------------------------------------------------
+Query:  Gudur Junction to  Sojat Road
+Departure Time: 10:00
+Modes preferred ['flight', 'train', 'bus']
+**Schedule**
+12296  Gudur Junction to  Itarsi Junction 11:05 12:35 train
+12167  Itarsi Junction to  Jabalpur 13:15 16:25 train
+SG_2452_Q-400  Jabalpur to  DELHI 18:30 20:05 flight
+6E_157_A320  DELHI to  Ahmedabad 20:30 22:00 flight
+12490  Ahmedabad to  Palanpur Junction 22:30 01:28 train
+12989  Palanpur Junction to  Sirohi Road 01:30 03:32 train
+12989  Sirohi Road to  Jawai Bandh 03:34 04:02 train
+12989  Jawai Bandh to  Falna 04:04 04:21 train
+12989  Falna to  Marwar Junction 04:23 05:26 train
+12479  Marwar Junction to  Rani 20:32 21:08 train
+12989  Rani to  Sojat Road 04:40 05:43 train
+Done
+
+kartik@kartik:~/Testing/Extension$ python CSA_v3.py 246 785
+------------------------------------------------------------------------
+Query:  Gudur Junction to  Sojat Road
+Departure Time: 10:00
+Modes preferred ['flight', 'train']
+**Schedule**
+12296  Gudur Junction to  Itarsi Junction 11:05 12:35 train
+12167  Itarsi Junction to  Jabalpur 13:15 16:25 train
+SG_2452_Q-400  Jabalpur to  DELHI 18:30 20:05 flight
+6E_157_A320  DELHI to  Ahmedabad 20:30 22:00 flight
+12490  Ahmedabad to  Palanpur Junction 22:30 01:28 train
+12989  Palanpur Junction to  Sirohi Road 01:30 03:32 train
+12989  Sirohi Road to  Jawai Bandh 03:34 04:02 train
+12989  Jawai Bandh to  Falna 04:04 04:21 train
+12989  Falna to  Marwar Junction 04:23 05:26 train
+12479  Marwar Junction to  Rani 20:32 21:08 train
+12989  Rani to  Sojat Road 04:40 05:43 train
+Done
+
+Query:  Gudur Junction to  Sojat Road
+Departure Time: 10:00
+Modes preferred ['train', 'bus']
+**Schedule**
+12296  Gudur Junction to  Itarsi Junction 11:05 12:35 train
+11057  Itarsi Junction to  Phillaur Junction 12:55 13:58 train
+11057  Phillaur Junction to  ODG  14:00 14:03 train
+11057  ODG  to  Goraya 14:05 14:12 train
+11057  Goraya to  Mandi Dip 14:14 14:19 train
+11057  Mandi Dip to  Phagwara Junction 14:21 14:25 train
+11057  Phagwara Junction to  Bhopal Habibganj 14:27 14:38 train
+11057  Bhopal Habibganj to  Jalandhar Cantonment 14:40 14:41 train
+12476  Jalandhar Cantonment to  Ludhiana 14:50 15:40 train
+12476  Ludhiana to  Surendranagar 15:50 16:57 train
+12476  Surendranagar to  Ambala Cantonment 16:59 17:50 train
+12476  Ambala Cantonment to  Wankaner Junction 18:00 18:21 train
+12476  Wankaner Junction to  Rajkot 18:23 19:21 train
+4026714  Rajkot to  Ahmedabad 00:06 00:06 bus
+4511154  Ahmedabad to  Abu Road 04:05 10:08 bus
+11090  Abu Road to  Falna 12:35 14:08 train
+11090  Falna to  Marwar Junction 14:10 15:15 train
+12479  Marwar Junction to  Rani 20:32 21:08 train
+12989  Rani to  Sojat Road 04:40 05:43 train
+Done
+
