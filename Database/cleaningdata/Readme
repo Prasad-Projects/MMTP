@@ -1,0 +1,7 @@
+SortedTrains.txt -- Schedule sorted on train departure
+Stations.txt -- all stations enumerated
+trains1.txt -- raw schedule
+
+
+Number of stations = 2136
+Number of connections = 44876
