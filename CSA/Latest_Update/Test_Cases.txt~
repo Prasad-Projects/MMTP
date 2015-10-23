@@ -1,0 +1,38 @@
+**Worst Case**
+kartik@kartik:~/Testing/new$ python CSA_v3.py 236 470
+------------------------------------------------------------------------
+Query:  Chennai Central to  Jammu Tawi
+Departure Time: 08:00
+Modes preferred ['flight', 'train', 'bus']
+**Schedule**
+12970  Chennai Central to  Arakkonam Junction 10:10 11:13 train
+12970  Arakkonam Junction to  Jolarpettai 11:15 13:18 train
+12970  Jolarpettai to  Salem Junction 13:20 14:50 train
+12678  Salem Junction to  Dharmapuri 15:40 16:43 train
+4461919  Dharmapuri to  bangalore 19:50 22:45 bus
+9W_2124_B7373-80  bangalore to  mumbai 23:10 00:50 flight
+9W_303_B7373-80  mumbai to  Delhi 02:20 04:30 flight
+15014  Delhi to  Delhi Sarai Rohilla 04:40 04:56 train
+14095  Delhi Sarai Rohilla to  Sonipat 05:45 06:34 train
+14095  Sonipat to  Ganaur 06:36 06:49 train
+14095  Ganaur to  Samalkha 06:51 07:03 train
+14095  Samalkha to  Panipat Junction 07:05 07:25 train
+14095  Panipat Junction to  Karnal 07:45 08:09 train
+14095  Karnal to  Kurukshetra Junction 08:11 08:41 train
+14095  Kurukshetra Junction to  Shahbad Markanda 08:43 09:06 train
+14095  Shahbad Markanda to  Ambala Cantonment 09:08 09:45 train
+12029  Ambala Cantonment to  Rajpura Junction 09:57 10:18 train
+12029  Rajpura Junction to  Ludhiana Junction 10:20 11:24 train
+12029  Ludhiana Junction to  Phagwara Junction 11:27 11:57 train
+12029  Phagwara Junction to  Jalandhar City 11:59 12:20 train
+19223  Jalandhar City to  Tanda Urmar 12:45 13:30 train
+19223  Tanda Urmar to  Dasuya 13:32 13:45 train
+19223  Dasuya to  Mukerian 13:47 14:03 train
+19223  Mukerian to  Chakki Bank 14:05 14:44 train
+12549  Chakki Bank to  Jammu Tawi 18:00 21:10 train
+Done
+
+**Best Case**
+
+
+
