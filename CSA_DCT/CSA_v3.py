@@ -1,0 +1,185 @@
+import sys
+import time
+from array import *
+from random import randint
+MAX = 2**24 - 1 
+NO_OF_STATIONS = 2265 #max number of stations
+no_of_connections = 178665 #no of input connections
+class Connections:
+	def __init__(self,line):
+			parameters = line.split(' ');
+
+			self.train_no = parameters[0]
+			self.dept_stn = int(parameters[1])
+			self.arr_stn  = int(parameters[2])
+			self.dep_time = int(parameters[3])
+			self.arr_time = int(parameters[4])
+			temp = parameters[5]
+			self.label = temp[:-1]
+
+def TimeTable(connections):
+	
+	f = open("withtra_bu_pl.txt","r")
+	for line in f:
+		connections.append(Connections(line))
+		
+	f.close()
+	return;
+
+def DCTconn(DCTconnections):
+	
+	f = open("DCTable.txt","r")
+	for line in f:
+		DCTconnections.append(Connections(line))
+		
+	f.close()
+	return;
+
+#Station codes
+Station_Code = {}
+f = open("Stations.txt","r")
+for line in f:
+	y = line[:-1].split(" ")
+	str1 = ""
+	for x in y[1:]:
+		str1 += " " + x
+	Station_Code[int(y[0])] = str1
+f.close()
+
+#DCTable build
+DCTconnections = []
+DCTconn(DCTconnections)
+
+#Connections build
+connections = []
+TimeTable(connections)
+length = len(connections)
+
+def BinarySearch(connections,deptime):
+	first = 0
+	last = len(connections)/3 - 1
+	mid = 0
+	while first <= last:
+		 	if(connections[first].dep_time == deptime): break
+		 	mid = (first+last)/2
+		 	if deptime < connections[mid].dep_time:
+		 		last = mid - 1
+		 	else:
+		 		first = mid + 1
+	return mid 
+
+for _ in xrange(7000):
+	#for p in range(1,2264): 
+		#inp = raw_input().split(' ')
+	print _	
+	Incoming_Connection = array('I') #Best Incoming connection as unsigned integer
+	Earliest_Arrival = array('I') #Arrival timestamp as unsigned integer
+	
+	Departure_Station = randint(1,2200)#int(inp[0])
+	Start = Station_Code[int(Departure_Station)]
+
+	Arrival_Station = randint(1,2200)#int(inp[1])
+	End = Station_Code[int(Arrival_Station)]
+
+	Departure_Time = randint(1,23)*60*60
+
+	flight_mode = 'True'
+	train_mode = 'True'
+	bus_mode = 'True'
+	
+	
+	preferred_modes = []
+	if flight_mode == 'True':
+		preferred_modes.append('flight')
+	if train_mode == 'True':
+		preferred_modes.append('train')
+	if bus_mode == 'True':
+		preferred_modes.append('bus')
+	flag = 0
+	#DCT Check
+	for x in DCTconnections:
+		if x.dept_stn == Departure_Station and x.arr_stn == Arrival_Station and x.dep_time >= Departure_Time:
+			while x.dep_time >= 86400:
+				x.dep_time = x.dep_time % 86400
+			while x.arr_time >= 86400:
+				x.arr_time = x.arr_time % 86400
+				
+			hr1,min1 = x.dep_time/3600,(x.dep_time - (x.dep_time/3600)*3600)/60
+			if hr1 < 10: hr1 = '0'+str(hr1)
+			if min1 < 10: min1 = '0'+str(min1)
+			print 'Yolo2'
+			hr2,min2 = x.arr_time/3600,(x.arr_time - (x.arr_time/3600)*3600)/60
+			if hr2 < 10: hr2 = '0'+str(hr2)
+			if min2 < 10: min2 = '0'+str(min2)
+			print "{} {} to {} {}:{} {}:{} {}".format(x.train_no,Station_Code[x.dept_stn],Station_Code[x.arr_stn],hr1,min1,hr2,min2,x.label) 
+			flag = 1
+			break
+	if flag == 1:
+		continue
+	#CSA Starts here
+	Incoming_Connection = array('I', [MAX for _ in xrange(no_of_connections)])
+	Earliest_Arrival = array('I', [MAX for _ in xrange(no_of_connections)])
+
+	Earliest_Arrival[Departure_Station] = Departure_Time
+	i = BinarySearch(connections,Departure_Time)
+		
+	Min_Arrival = MAX 
+	first_time = i
+	while i < len(connections):
+		j = connections[i]
+		if j.arr_time <= Earliest_Arrival[j.arr_stn] and j.dep_time >= Earliest_Arrival[j.dept_stn]:
+			
+			Earliest_Arrival[j.arr_stn] = j.arr_time
+			Incoming_Connection[j.arr_stn] = i
+			
+			if j.arr_stn == Arrival_Station:
+				Min_Arrival = min(Min_Arrival, j.arr_time)
+				
+		elif j.arr_time > Min_Arrival:
+			break
+		elif (first_time + 2*length) <= i + 1:
+			break
+		i += 1
+	
+
+	if Incoming_Connection[Arrival_Station] == MAX :
+		print "NO TRAINS AVAILABLE STARTING THE SAME DAY"
+		continue
+	else:
+		Route = []
+		#Do Backtracking
+		prev_connection = Incoming_Connection[Arrival_Station]
+		
+		no_of_iters = 70
+		while prev_connection != MAX:
+			no_of_iters-=1
+			temp = connections[prev_connection]
+			c = [temp]
+			Route[:0] = c
+				
+			if temp.dept_stn == Departure_Station: break
+			prev_connection = Incoming_Connection[temp.dept_stn]
+			if no_of_iters == 0: 
+				print "Deadlock"
+				print Departure_Station,Arrival_Station,Departure_Time
+				break
+			#print 'Out here'
+		
+		if no_of_iters == 0: continue
+		
+		for x in Route:
+				
+			while x.dep_time >= 86400:
+				x.dep_time = x.dep_time % 86400
+			while x.arr_time >= 86400:
+				x.arr_time = x.arr_time % 86400
+				
+			hr1,min1 = x.dep_time/3600,(x.dep_time - (x.dep_time/3600)*3600)/60
+			if hr1 < 10: hr1 = '0'+str(hr1)
+			if min1 < 10: min1 = '0'+str(min1)
+		
+			hr2,min2 = x.arr_time/3600,(x.arr_time - (x.arr_time/3600)*3600)/60
+			if hr2 < 10: hr2 = '0'+str(hr2)
+			if min2 < 10: min2 = '0'+str(min2)
+
+			#print "{} {} to {} {}:{} {}:{} {}".format(x.train_no,Station_Code[x.dept_stn],Station_Code[x.arr_stn],hr1,min1,hr2,min2,x.label)
