@@ -1,0 +1,7 @@
+time_stamp.py : Generates a day's Train schedule in the format 
+		<train_no> <Dept_Stn> <Arr_Stn> <Dept_Time> <Arr_Time>
+		from the sql db. Times are offset in seconds from 00:00 hrs
+sort_train_flight.py : Sorts the schedule according to departure time
+Station_Code : Station codes for the railway stations
+edit_sort_schedule.py : 
+
