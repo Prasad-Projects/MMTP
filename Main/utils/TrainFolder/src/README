@@ -1,0 +1,3 @@
+To calculate distance between two locations run JSONDistanceCalculator.java, 
+enter the two locations and get the result appropriately. The code uses JSON
+objects from Google Distance APIs. 
