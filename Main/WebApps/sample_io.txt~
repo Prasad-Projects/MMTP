@@ -1,0 +1,16 @@
+Enter Departure Station name : mayiladuthurai
+Enter Arrival Station name : bhusawal
+Enter Departure Time: 00:00
+---------------------------------------------------
+{
+  "results": [
+    "SCHEDULE",
+    "----: mayiladuthuraito bhusawal(with tCSA):----",
+    [
+      "4701386  mayiladuthurai to  chennai 14:50 20:30 bus\n",
+      "G8-451_A320  chennai to  pune 21:00 22:25 flight\n",
+      "6E_134_A320  pune to  Nagpur 05:55 07:10 flight\n",
+      "4821000  Nagpur to  bhusawal 17:00 00:30 bus\n"
+    ]
+  ]
+}
